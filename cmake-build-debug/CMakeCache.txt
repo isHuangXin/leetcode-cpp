@@ -213,10 +213,10 @@ CMAKE_STRIP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/Xcode
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-LeetcodePracticing_BINARY_DIR:STATIC=/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree
+LeetcodePracticing_BINARY_DIR:STATIC=/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/01.Tree
 
 //Value Computed by CMake
-LeetcodePracticing_SOURCE_DIR:STATIC=/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/Tree
+LeetcodePracticing_SOURCE_DIR:STATIC=/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/01.Tree
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl

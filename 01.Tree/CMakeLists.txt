@@ -3,4 +3,4 @@ project(LeetcodePracticing)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Tree 1530.好叶子节点对的数量.cpp)
+add_executable(01.Tree 1530.好叶子节点对的数量.cpp)

@@ -65,57 +65,57 @@ CMAKE_SOURCE_DIR = /Users/huangxin/Coding/CLionProjects/LeetcodePracticing
 CMAKE_BINARY_DIR = /Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug
 
 #=============================================================================
-# Directory level rules for directory Tree
+# Directory level rules for directory 01.Tree
 
 # Convenience name for "all" pass in the directory.
-Tree/all: Tree/CMakeFiles/Tree.dir/all
+01.Tree/all: 01.Tree/CMakeFiles/01.Tree.dir/all
 
-.PHONY : Tree/all
+.PHONY : 01.Tree/all
 
 # Convenience name for "clean" pass in the directory.
-Tree/clean: Tree/CMakeFiles/Tree.dir/clean
+01.Tree/clean: 01.Tree/CMakeFiles/01.Tree.dir/clean
 
-.PHONY : Tree/clean
+.PHONY : 01.Tree/clean
 
 # Convenience name for "preinstall" pass in the directory.
-Tree/preinstall:
+01.Tree/preinstall:
 
-.PHONY : Tree/preinstall
+.PHONY : 01.Tree/preinstall
 
 #=============================================================================
-# Target rules for target Tree/CMakeFiles/Tree.dir
+# Target rules for target 01.Tree/CMakeFiles/01.Tree.dir
 
 # All Build rule for target.
-Tree/CMakeFiles/Tree.dir/all:
-	$(MAKE) -f Tree/CMakeFiles/Tree.dir/build.make Tree/CMakeFiles/Tree.dir/depend
-	$(MAKE) -f Tree/CMakeFiles/Tree.dir/build.make Tree/CMakeFiles/Tree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Tree"
-.PHONY : Tree/CMakeFiles/Tree.dir/all
+01.Tree/CMakeFiles/01.Tree.dir/all:
+	$(MAKE) -f 01.Tree/CMakeFiles/01.Tree.dir/build.make 01.Tree/CMakeFiles/01.Tree.dir/depend
+	$(MAKE) -f 01.Tree/CMakeFiles/01.Tree.dir/build.make 01.Tree/CMakeFiles/01.Tree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 01.Tree"
+.PHONY : 01.Tree/CMakeFiles/01.Tree.dir/all
 
 # Include target in all.
-all: Tree/CMakeFiles/Tree.dir/all
+all: 01.Tree/CMakeFiles/01.Tree.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-Tree/CMakeFiles/Tree.dir/rule: cmake_check_build_system
+01.Tree/CMakeFiles/01.Tree.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 Tree/CMakeFiles/Tree.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 01.Tree/CMakeFiles/01.Tree.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/CMakeFiles 0
-.PHONY : Tree/CMakeFiles/Tree.dir/rule
+.PHONY : 01.Tree/CMakeFiles/01.Tree.dir/rule
 
 # Convenience name for target.
-Tree: Tree/CMakeFiles/Tree.dir/rule
+01.Tree: 01.Tree/CMakeFiles/01.Tree.dir/rule
 
-.PHONY : Tree
-
-# clean rule for target.
-Tree/CMakeFiles/Tree.dir/clean:
-	$(MAKE) -f Tree/CMakeFiles/Tree.dir/build.make Tree/CMakeFiles/Tree.dir/clean
-.PHONY : Tree/CMakeFiles/Tree.dir/clean
+.PHONY : 01.Tree
 
 # clean rule for target.
-clean: Tree/CMakeFiles/Tree.dir/clean
+01.Tree/CMakeFiles/01.Tree.dir/clean:
+	$(MAKE) -f 01.Tree/CMakeFiles/01.Tree.dir/build.make 01.Tree/CMakeFiles/01.Tree.dir/clean
+.PHONY : 01.Tree/CMakeFiles/01.Tree.dir/clean
+
+# clean rule for target.
+clean: 01.Tree/CMakeFiles/01.Tree.dir/clean
 
 .PHONY : clean
 

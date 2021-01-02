@@ -4,4 +4,4 @@ project(LeetcodePracticing)
 set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(LeetcodePracticing main.cpp)
-add_subdirectory(Tree)
+add_subdirectory(01.Tree)
