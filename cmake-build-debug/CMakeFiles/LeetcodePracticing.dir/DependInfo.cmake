@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/main.cpp" "/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/CMakeFiles/LeetcodePracticing.dir/main.cpp.o"
+  "/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/1530.好叶子节点对的数量.cpp" "/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

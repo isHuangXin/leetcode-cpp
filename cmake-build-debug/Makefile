@@ -123,32 +123,32 @@ LeetcodePracticing/fast:
 	$(MAKE) -f CMakeFiles/LeetcodePracticing.dir/build.make CMakeFiles/LeetcodePracticing.dir/build
 .PHONY : LeetcodePracticing/fast
 
-main.o: main.cpp.o
+1530.好叶子节点对的数量.o: 1530.好叶子节点对的数量.cpp.o
 
-.PHONY : main.o
+.PHONY : 1530.好叶子节点对的数量.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/LeetcodePracticing.dir/build.make CMakeFiles/LeetcodePracticing.dir/main.cpp.o
-.PHONY : main.cpp.o
+1530.好叶子节点对的数量.cpp.o:
+	$(MAKE) -f CMakeFiles/LeetcodePracticing.dir/build.make CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.o
+.PHONY : 1530.好叶子节点对的数量.cpp.o
 
-main.i: main.cpp.i
+1530.好叶子节点对的数量.i: 1530.好叶子节点对的数量.cpp.i
 
-.PHONY : main.i
+.PHONY : 1530.好叶子节点对的数量.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/LeetcodePracticing.dir/build.make CMakeFiles/LeetcodePracticing.dir/main.cpp.i
-.PHONY : main.cpp.i
+1530.好叶子节点对的数量.cpp.i:
+	$(MAKE) -f CMakeFiles/LeetcodePracticing.dir/build.make CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.i
+.PHONY : 1530.好叶子节点对的数量.cpp.i
 
-main.s: main.cpp.s
+1530.好叶子节点对的数量.s: 1530.好叶子节点对的数量.cpp.s
 
-.PHONY : main.s
+.PHONY : 1530.好叶子节点对的数量.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/LeetcodePracticing.dir/build.make CMakeFiles/LeetcodePracticing.dir/main.cpp.s
-.PHONY : main.cpp.s
+1530.好叶子节点对的数量.cpp.s:
+	$(MAKE) -f CMakeFiles/LeetcodePracticing.dir/build.make CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.s
+.PHONY : 1530.好叶子节点对的数量.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LeetcodePracticing"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... 1530.好叶子节点对的数量.o"
+	@echo "... 1530.好叶子节点对的数量.i"
+	@echo "... 1530.好叶子节点对的数量.s"
 .PHONY : help
 
 

@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/main.cpp">
+		<Unit filename="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/1530.好叶子节点对的数量.cpp">
 			<Option target="LeetcodePracticing"/>
 		</Unit>
 		<Unit filename="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/CMakeLists.txt">
