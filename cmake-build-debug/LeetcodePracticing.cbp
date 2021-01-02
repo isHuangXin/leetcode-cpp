@@ -5,7 +5,7 @@
 		<Option title="LeetcodePracticing"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Tree\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug"/>
@@ -37,9 +37,9 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="LeetcodePracticing">
-				<Option output="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/LeetcodePracticing" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug"/>
+			<Target title="Tree">
+				<Option output="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree/Tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetcodePracticing"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree/Makefile&quot;  VERBOSE=1 Tree"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="LeetcodePracticing/fast">
-				<Option output="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/LeetcodePracticing" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug"/>
+			<Target title="Tree/fast">
+				<Option output="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree/Tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,18 +73,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetcodePracticing/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree/Makefile&quot;  VERBOSE=1 Tree/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/1530.好叶子节点对的数量.cpp">
-			<Option target="LeetcodePracticing"/>
+		<Unit filename="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/Tree/1530.好叶子节点对的数量.cpp">
+			<Option target="Tree"/>
 		</Unit>
 		<Unit filename="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/Tree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tree\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

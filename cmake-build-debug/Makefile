@@ -111,44 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LeetcodePracticing
+# Target rules for targets named Tree
 
 # Build rule for target.
-LeetcodePracticing: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LeetcodePracticing
-.PHONY : LeetcodePracticing
+Tree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Tree
+.PHONY : Tree
 
 # fast build rule for target.
-LeetcodePracticing/fast:
-	$(MAKE) -f CMakeFiles/LeetcodePracticing.dir/build.make CMakeFiles/LeetcodePracticing.dir/build
-.PHONY : LeetcodePracticing/fast
-
-1530.好叶子节点对的数量.o: 1530.好叶子节点对的数量.cpp.o
-
-.PHONY : 1530.好叶子节点对的数量.o
-
-# target to build an object file
-1530.好叶子节点对的数量.cpp.o:
-	$(MAKE) -f CMakeFiles/LeetcodePracticing.dir/build.make CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.o
-.PHONY : 1530.好叶子节点对的数量.cpp.o
-
-1530.好叶子节点对的数量.i: 1530.好叶子节点对的数量.cpp.i
-
-.PHONY : 1530.好叶子节点对的数量.i
-
-# target to preprocess a source file
-1530.好叶子节点对的数量.cpp.i:
-	$(MAKE) -f CMakeFiles/LeetcodePracticing.dir/build.make CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.i
-.PHONY : 1530.好叶子节点对的数量.cpp.i
-
-1530.好叶子节点对的数量.s: 1530.好叶子节点对的数量.cpp.s
-
-.PHONY : 1530.好叶子节点对的数量.s
-
-# target to generate assembly for a file
-1530.好叶子节点对的数量.cpp.s:
-	$(MAKE) -f CMakeFiles/LeetcodePracticing.dir/build.make CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.s
-.PHONY : 1530.好叶子节点对的数量.cpp.s
+Tree/fast:
+	$(MAKE) -f Tree/CMakeFiles/Tree.dir/build.make Tree/CMakeFiles/Tree.dir/build
+.PHONY : Tree/fast
 
 # Help Target
 help:
@@ -158,10 +131,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... LeetcodePracticing"
-	@echo "... 1530.好叶子节点对的数量.o"
-	@echo "... 1530.好叶子节点对的数量.i"
-	@echo "... 1530.好叶子节点对的数量.s"
+	@echo "... Tree"
 .PHONY : help
 
 

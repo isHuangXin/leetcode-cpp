@@ -57,27 +57,27 @@ include CMakeFiles/LeetcodePracticing.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LeetcodePracticing.dir/flags.make
 
-CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.o: CMakeFiles/LeetcodePracticing.dir/flags.make
-CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.o: ../1530.好叶子节点对的数量.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.o -c /Users/huangxin/Coding/CLionProjects/LeetcodePracticing/1530.好叶子节点对的数量.cpp
+CMakeFiles/LeetcodePracticing.dir/main.cpp.o: CMakeFiles/LeetcodePracticing.dir/flags.make
+CMakeFiles/LeetcodePracticing.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetcodePracticing.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetcodePracticing.dir/main.cpp.o -c /Users/huangxin/Coding/CLionProjects/LeetcodePracticing/main.cpp
 
-CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangxin/Coding/CLionProjects/LeetcodePracticing/1530.好叶子节点对的数量.cpp > CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.i
+CMakeFiles/LeetcodePracticing.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetcodePracticing.dir/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangxin/Coding/CLionProjects/LeetcodePracticing/main.cpp > CMakeFiles/LeetcodePracticing.dir/main.cpp.i
 
-CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangxin/Coding/CLionProjects/LeetcodePracticing/1530.好叶子节点对的数量.cpp -o CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.s
+CMakeFiles/LeetcodePracticing.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetcodePracticing.dir/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangxin/Coding/CLionProjects/LeetcodePracticing/main.cpp -o CMakeFiles/LeetcodePracticing.dir/main.cpp.s
 
 # Object files for target LeetcodePracticing
 LeetcodePracticing_OBJECTS = \
-"CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.o"
+"CMakeFiles/LeetcodePracticing.dir/main.cpp.o"
 
 # External object files for target LeetcodePracticing
 LeetcodePracticing_EXTERNAL_OBJECTS =
 
-LeetcodePracticing: CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.o
+LeetcodePracticing: CMakeFiles/LeetcodePracticing.dir/main.cpp.o
 LeetcodePracticing: CMakeFiles/LeetcodePracticing.dir/build.make
 LeetcodePracticing: CMakeFiles/LeetcodePracticing.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LeetcodePracticing"

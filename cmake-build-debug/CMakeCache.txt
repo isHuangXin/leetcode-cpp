@@ -213,10 +213,10 @@ CMAKE_STRIP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/Xcode
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-LeetcodePracticing_BINARY_DIR:STATIC=/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug
+LeetcodePracticing_BINARY_DIR:STATIC=/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree
 
 //Value Computed by CMake
-LeetcodePracticing_SOURCE_DIR:STATIC=/Users/huangxin/Coding/CLionProjects/LeetcodePracticing
+LeetcodePracticing_SOURCE_DIR:STATIC=/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/Tree
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
@@ -320,7 +320,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

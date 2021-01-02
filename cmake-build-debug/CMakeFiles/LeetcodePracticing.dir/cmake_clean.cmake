@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LeetcodePracticing.dir/1530.好叶子节点对的数量.cpp.o"
+  "CMakeFiles/LeetcodePracticing.dir/main.cpp.o"
   "LeetcodePracticing.pdb"
   "LeetcodePracticing"
 )

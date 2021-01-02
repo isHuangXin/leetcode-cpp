@@ -1,3 +1,5 @@
 /Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/CMakeFiles/LeetcodePracticing.dir
+/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree/CMakeFiles/rebuild_cache.dir
+/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree/CMakeFiles/edit_cache.dir
+/Users/huangxin/Coding/CLionProjects/LeetcodePracticing/cmake-build-debug/Tree/CMakeFiles/Tree.dir

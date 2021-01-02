@@ -3,5 +3,4 @@ project(LeetcodePracticing)
 
 set(CMAKE_CXX_STANDARD 11)
 
-#add_executable(LeetcodePracticing main.cpp)
-add_subdirectory(Tree)
+add_executable(Tree 1530.好叶子节点对的数量.cpp)
