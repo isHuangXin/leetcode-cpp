@@ -5,6 +5,6 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, 03.NumberAndBit!" << std::endl;
+    std::cout << "Hello, 04.BitOperationTest!" << std::endl;
     return 0;
 }
