@@ -19,3 +19,4 @@
 #### 3. STL
 
 - 万能头：*#include <bits/stdc++.h>*
+- unordered_set容器： set 容器会自行对存储的数据进行排序，而 unordered_set 容器不会。

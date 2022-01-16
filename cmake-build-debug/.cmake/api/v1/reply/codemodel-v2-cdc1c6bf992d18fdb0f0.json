@@ -17,7 +17,9 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -34,7 +36,9 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -52,6 +56,20 @@
 					"id" : "00.the-sword-to-offer-09.CQueu::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-00.the-sword-to-offer-09.CQueu-Debug-56708a8ca873cca2d832.json",
 					"name" : "00.the-sword-to-offer-09.CQueu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "00.the-sword-to-offer-30.MinStack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-00.the-sword-to-offer-30.MinStack-Debug-45f234f04d8f0f4e9676.json",
+					"name" : "00.the-sword-to-offer-30.MinStack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01.hot-100-03.lengthOfLongestSubstring::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.hot-100-03.lengthOfLongestSubstring-Debug-a7fc5cfe1829b24720d6.json",
+					"name" : "01.hot-100-03.lengthOfLongestSubstring",
 					"projectIndex" : 0
 				},
 				{

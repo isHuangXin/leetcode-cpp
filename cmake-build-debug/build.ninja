@@ -42,6 +42,48 @@ include CMakeFiles/rules.ninja
 cmake_ninja_workdir = /home/huangxin/code/cpp/leetcode-practice/cmake-build-debug/
 
 #############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/huangxin/code/cpp/leetcode-practice/cmake-build-debug && /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 00.the-sword-to-offer-09.CQueu
+
+
+#############################################
+# Order-only phony target for 00.the-sword-to-offer-09.CQueu
+
+build cmake_object_order_depends_target_00.the-sword-to-offer-09.CQueu: phony || CMakeFiles/00.the-sword-to-offer-09.CQueu.dir
+
+build CMakeFiles/00.the-sword-to-offer-09.CQueu.dir/00.the-sword-to-offer/09.CQueu.cpp.o: CXX_COMPILER__00.2ethe-sword-to-offer-09.2eCQueu_Debug /home/huangxin/code/cpp/leetcode-practice/00.the-sword-to-offer/09.CQueu.cpp || cmake_object_order_depends_target_00.the-sword-to-offer-09.CQueu
+  DEP_FILE = CMakeFiles/00.the-sword-to-offer-09.CQueu.dir/00.the-sword-to-offer/09.CQueu.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/00.the-sword-to-offer-09.CQueu.dir
+  OBJECT_FILE_DIR = CMakeFiles/00.the-sword-to-offer-09.CQueu.dir/00.the-sword-to-offer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 00.the-sword-to-offer-09.CQueu
+
+
+#############################################
+# Link the executable 00.the-sword-to-offer-09.CQueu
+
+build 00.the-sword-to-offer-09.CQueu: CXX_EXECUTABLE_LINKER__00.2ethe-sword-to-offer-09.2eCQueu_Debug CMakeFiles/00.the-sword-to-offer-09.CQueu.dir/00.the-sword-to-offer/09.CQueu.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/00.the-sword-to-offer-09.CQueu.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 00.the-sword-to-offer-09.CQueu
+  TARGET_PDB = 00.the-sword-to-offer-09.CQueu.dbg
+
+
+#############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
@@ -84,35 +126,35 @@ build 00.the-sword-to-offer-00.hello-the-sword-to-offer: CXX_EXECUTABLE_LINKER__
   TARGET_PDB = 00.the-sword-to-offer-00.hello-the-sword-to-offer.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 00.the-sword-to-offer-09.CQueu
+# Object build statements for EXECUTABLE target 00.the-sword-to-offer-30.MinStack
 
 
 #############################################
-# Order-only phony target for 00.the-sword-to-offer-09.CQueu
+# Order-only phony target for 00.the-sword-to-offer-30.MinStack
 
-build cmake_object_order_depends_target_00.the-sword-to-offer-09.CQueu: phony || CMakeFiles/00.the-sword-to-offer-09.CQueu.dir
+build cmake_object_order_depends_target_00.the-sword-to-offer-30.MinStack: phony || CMakeFiles/00.the-sword-to-offer-30.MinStack.dir
 
-build CMakeFiles/00.the-sword-to-offer-09.CQueu.dir/00.the-sword-to-offer/09.CQueu.cpp.o: CXX_COMPILER__00.2ethe-sword-to-offer-09.2eCQueu_Debug /home/huangxin/code/cpp/leetcode-practice/00.the-sword-to-offer/09.CQueu.cpp || cmake_object_order_depends_target_00.the-sword-to-offer-09.CQueu
-  DEP_FILE = CMakeFiles/00.the-sword-to-offer-09.CQueu.dir/00.the-sword-to-offer/09.CQueu.cpp.o.d
+build CMakeFiles/00.the-sword-to-offer-30.MinStack.dir/00.the-sword-to-offer/30.MinStack.cpp.o: CXX_COMPILER__00.2ethe-sword-to-offer-30.2eMinStack_Debug /home/huangxin/code/cpp/leetcode-practice/00.the-sword-to-offer/30.MinStack.cpp || cmake_object_order_depends_target_00.the-sword-to-offer-30.MinStack
+  DEP_FILE = CMakeFiles/00.the-sword-to-offer-30.MinStack.dir/00.the-sword-to-offer/30.MinStack.cpp.o.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles/00.the-sword-to-offer-09.CQueu.dir
-  OBJECT_FILE_DIR = CMakeFiles/00.the-sword-to-offer-09.CQueu.dir/00.the-sword-to-offer
+  OBJECT_DIR = CMakeFiles/00.the-sword-to-offer-30.MinStack.dir
+  OBJECT_FILE_DIR = CMakeFiles/00.the-sword-to-offer-30.MinStack.dir/00.the-sword-to-offer
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 00.the-sword-to-offer-09.CQueu
+# Link build statements for EXECUTABLE target 00.the-sword-to-offer-30.MinStack
 
 
 #############################################
-# Link the executable 00.the-sword-to-offer-09.CQueu
+# Link the executable 00.the-sword-to-offer-30.MinStack
 
-build 00.the-sword-to-offer-09.CQueu: CXX_EXECUTABLE_LINKER__00.2ethe-sword-to-offer-09.2eCQueu_Debug CMakeFiles/00.the-sword-to-offer-09.CQueu.dir/00.the-sword-to-offer/09.CQueu.cpp.o
+build 00.the-sword-to-offer-30.MinStack: CXX_EXECUTABLE_LINKER__00.2ethe-sword-to-offer-30.2eMinStack_Debug CMakeFiles/00.the-sword-to-offer-30.MinStack.dir/00.the-sword-to-offer/30.MinStack.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/00.the-sword-to-offer-09.CQueu.dir
+  OBJECT_DIR = CMakeFiles/00.the-sword-to-offer-30.MinStack.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 00.the-sword-to-offer-09.CQueu
-  TARGET_PDB = 00.the-sword-to-offer-09.CQueu.dbg
+  TARGET_FILE = 00.the-sword-to-offer-30.MinStack
+  TARGET_PDB = 00.the-sword-to-offer-30.MinStack.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target leetcode-practice-main
@@ -145,16 +187,36 @@ build leetcode-practice-main: CXX_EXECUTABLE_LINKER__leetcode-practice-main_Debu
   TARGET_FILE = leetcode-practice-main
   TARGET_PDB = leetcode-practice-main.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 01.hot-100-03.lengthOfLongestSubstring
+
 
 #############################################
-# Utility command for edit_cache
+# Order-only phony target for 01.hot-100-03.lengthOfLongestSubstring
 
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/huangxin/code/cpp/leetcode-practice/cmake-build-debug && /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
+build cmake_object_order_depends_target_01.hot-100-03.lengthOfLongestSubstring: phony || CMakeFiles/01.hot-100-03.lengthOfLongestSubstring.dir
 
-build edit_cache: phony CMakeFiles/edit_cache.util
+build CMakeFiles/01.hot-100-03.lengthOfLongestSubstring.dir/01.hot-100/03.lengthOfLongestSubstring.cpp.o: CXX_COMPILER__01.2ehot-100-03.2elengthOfLongestSubstring_Debug /home/huangxin/code/cpp/leetcode-practice/01.hot-100/03.lengthOfLongestSubstring.cpp || cmake_object_order_depends_target_01.hot-100-03.lengthOfLongestSubstring
+  DEP_FILE = CMakeFiles/01.hot-100-03.lengthOfLongestSubstring.dir/01.hot-100/03.lengthOfLongestSubstring.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/01.hot-100-03.lengthOfLongestSubstring.dir
+  OBJECT_FILE_DIR = CMakeFiles/01.hot-100-03.lengthOfLongestSubstring.dir/01.hot-100
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01.hot-100-03.lengthOfLongestSubstring
+
+
+#############################################
+# Link the executable 01.hot-100-03.lengthOfLongestSubstring
+
+build 01.hot-100-03.lengthOfLongestSubstring: CXX_EXECUTABLE_LINKER__01.2ehot-100-03.2elengthOfLongestSubstring_Debug CMakeFiles/01.hot-100-03.lengthOfLongestSubstring.dir/01.hot-100/03.lengthOfLongestSubstring.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/01.hot-100-03.lengthOfLongestSubstring.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 01.hot-100-03.lengthOfLongestSubstring
+  TARGET_PDB = 01.hot-100-03.lengthOfLongestSubstring.dbg
 
 # =============================================================================
 # Target aliases.
@@ -167,7 +229,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 #############################################
 # Folder: /home/huangxin/code/cpp/leetcode-practice/cmake-build-debug
 
-build all: phony 00.the-sword-to-offer-00.hello-the-sword-to-offer 00.the-sword-to-offer-09.CQueu leetcode-practice-main
+build all: phony 00.the-sword-to-offer-09.CQueu 00.the-sword-to-offer-00.hello-the-sword-to-offer 00.the-sword-to-offer-30.MinStack leetcode-practice-main 01.hot-100-03.lengthOfLongestSubstring
 
 # =============================================================================
 # Built-in targets
