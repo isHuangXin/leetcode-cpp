@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "leetcode-practice",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "00.the-sword-to-offer-00.hello-the-sword-to-offer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-00.the-sword-to-offer-00.hello-the-sword-to-offer-Debug-61b4ba505a877ee067b9.json",
+					"name" : "00.the-sword-to-offer-00.hello-the-sword-to-offer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "00.the-sword-to-offer-09.CQueu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-00.the-sword-to-offer-09.CQueu-Debug-56708a8ca873cca2d832.json",
+					"name" : "00.the-sword-to-offer-09.CQueu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leetcode-practice-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leetcode-practice-main-Debug-9994f14cb989e7cb1a4c.json",
+					"name" : "leetcode-practice-main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/huangxin/code/cpp/leetcode-practice/cmake-build-debug",
+		"source" : "/home/huangxin/code/cpp/leetcode-practice"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
