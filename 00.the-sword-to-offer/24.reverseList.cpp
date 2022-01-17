@@ -3,7 +3,7 @@
 //
 
 /**
- * Definition for singly-linked list.
+ * Definition for singly-linked list.copyRandomList
  * struct ListNode {
  *     int val;
  *     ListNode *next;
