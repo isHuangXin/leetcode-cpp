@@ -64,6 +64,37 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target main
+
+
+#############################################
+# Order-only phony target for main
+
+build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
+
+build CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_Debug /home/huangxin/code/cpp/leetcode-practice/main.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main
+
+
+#############################################
+# Link the executable main
+
+build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/main.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = main
+  TARGET_PDB = main.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 09.CQueu
 
 
@@ -77,8 +108,6 @@ build CMakeFiles/09.CQueu.dir/00.the-sword-to-offer/09.CQueu.cpp.o: CXX_COMPILER
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles/09.CQueu.dir
   OBJECT_FILE_DIR = CMakeFiles/09.CQueu.dir/00.the-sword-to-offer
-  TARGET_COMPILE_PDB = CMakeFiles/09.CQueu.dir/
-  TARGET_PDB = 09.CQueu.pdb
 
 
 # =============================================================================
@@ -93,9 +122,8 @@ build 09.CQueu: CXX_EXECUTABLE_LINKER__09.2eCQueu_Debug CMakeFiles/09.CQueu.dir/
   OBJECT_DIR = CMakeFiles/09.CQueu.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/09.CQueu.dir/
   TARGET_FILE = 09.CQueu
-  TARGET_PDB = 09.CQueu.pdb
+  TARGET_PDB = 09.CQueu.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 24.reverseList
@@ -111,8 +139,6 @@ build CMakeFiles/24.reverseList.dir/00.the-sword-to-offer/24.reverseList.cpp.o: 
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles/24.reverseList.dir
   OBJECT_FILE_DIR = CMakeFiles/24.reverseList.dir/00.the-sword-to-offer
-  TARGET_COMPILE_PDB = CMakeFiles/24.reverseList.dir/
-  TARGET_PDB = 24.reverseList.pdb
 
 
 # =============================================================================
@@ -127,43 +153,8 @@ build 24.reverseList: CXX_EXECUTABLE_LINKER__24.2ereverseList_Debug CMakeFiles/2
   OBJECT_DIR = CMakeFiles/24.reverseList.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/24.reverseList.dir/
   TARGET_FILE = 24.reverseList
-  TARGET_PDB = 24.reverseList.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 06.reversePrint
-
-
-#############################################
-# Order-only phony target for 06.reversePrint
-
-build cmake_object_order_depends_target_06.reversePrint: phony || CMakeFiles/06.reversePrint.dir
-
-build CMakeFiles/06.reversePrint.dir/00.the-sword-to-offer/06.reversePrint.cpp.o: CXX_COMPILER__06.2ereversePrint_Debug /home/huangxin/code/cpp/leetcode-practice/00.the-sword-to-offer/06.reversePrint.cpp || cmake_object_order_depends_target_06.reversePrint
-  DEP_FILE = CMakeFiles/06.reversePrint.dir/00.the-sword-to-offer/06.reversePrint.cpp.o.d
-  FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles/06.reversePrint.dir
-  OBJECT_FILE_DIR = CMakeFiles/06.reversePrint.dir/00.the-sword-to-offer
-  TARGET_COMPILE_PDB = CMakeFiles/06.reversePrint.dir/
-  TARGET_PDB = 06.reversePrint.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 06.reversePrint
-
-
-#############################################
-# Link the executable 06.reversePrint
-
-build 06.reversePrint: CXX_EXECUTABLE_LINKER__06.2ereversePrint_Debug CMakeFiles/06.reversePrint.dir/00.the-sword-to-offer/06.reversePrint.cpp.o
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/06.reversePrint.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/06.reversePrint.dir/
-  TARGET_FILE = 06.reversePrint
-  TARGET_PDB = 06.reversePrint.pdb
+  TARGET_PDB = 24.reverseList.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 00.hello-the-sword-to-offer
@@ -179,8 +170,6 @@ build CMakeFiles/00.hello-the-sword-to-offer.dir/00.the-sword-to-offer/00.hello-
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles/00.hello-the-sword-to-offer.dir
   OBJECT_FILE_DIR = CMakeFiles/00.hello-the-sword-to-offer.dir/00.the-sword-to-offer
-  TARGET_COMPILE_PDB = CMakeFiles/00.hello-the-sword-to-offer.dir/
-  TARGET_PDB = 00.hello-the-sword-to-offer.pdb
 
 
 # =============================================================================
@@ -195,9 +184,8 @@ build 00.hello-the-sword-to-offer: CXX_EXECUTABLE_LINKER__00.2ehello-the-sword-t
   OBJECT_DIR = CMakeFiles/00.hello-the-sword-to-offer.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/00.hello-the-sword-to-offer.dir/
   TARGET_FILE = 00.hello-the-sword-to-offer
-  TARGET_PDB = 00.hello-the-sword-to-offer.pdb
+  TARGET_PDB = 00.hello-the-sword-to-offer.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 35.copyRandomList
@@ -213,8 +201,6 @@ build CMakeFiles/35.copyRandomList.dir/00.the-sword-to-offer/35.copyRandomList.c
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles/35.copyRandomList.dir
   OBJECT_FILE_DIR = CMakeFiles/35.copyRandomList.dir/00.the-sword-to-offer
-  TARGET_COMPILE_PDB = CMakeFiles/35.copyRandomList.dir/
-  TARGET_PDB = 35.copyRandomList.pdb
 
 
 # =============================================================================
@@ -229,145 +215,8 @@ build 35.copyRandomList: CXX_EXECUTABLE_LINKER__35.2ecopyRandomList_Debug CMakeF
   OBJECT_DIR = CMakeFiles/35.copyRandomList.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/35.copyRandomList.dir/
   TARGET_FILE = 35.copyRandomList
-  TARGET_PDB = 35.copyRandomList.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target main
-
-
-#############################################
-# Order-only phony target for main
-
-build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
-
-build CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_Debug /home/huangxin/code/cpp/leetcode-practice/main.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles/main.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles/main.dir
-  OBJECT_FILE_DIR = CMakeFiles/main.dir
-  TARGET_COMPILE_PDB = CMakeFiles/main.dir/
-  TARGET_PDB = main.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target main
-
-
-#############################################
-# Link the executable main
-
-build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/main.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/main.dir/
-  TARGET_FILE = main
-  TARGET_PDB = main.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target leetcode-practice
-
-
-#############################################
-# Order-only phony target for leetcode-practice
-
-build cmake_object_order_depends_target_leetcode-practice: phony || CMakeFiles/leetcode-practice.dir
-
-build CMakeFiles/leetcode-practice.dir/main.cpp.o: CXX_COMPILER__leetcode-practice_Debug /home/huangxin/code/cpp/leetcode-practice/main.cpp || cmake_object_order_depends_target_leetcode-practice
-  DEP_FILE = CMakeFiles/leetcode-practice.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles/leetcode-practice.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode-practice.dir
-  TARGET_COMPILE_PDB = CMakeFiles/leetcode-practice.dir/
-  TARGET_PDB = leetcode-practice.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target leetcode-practice
-
-
-#############################################
-# Link the executable leetcode-practice
-
-build leetcode-practice: CXX_EXECUTABLE_LINKER__leetcode-practice_Debug CMakeFiles/leetcode-practice.dir/main.cpp.o
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/leetcode-practice.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/leetcode-practice.dir/
-  TARGET_FILE = leetcode-practice
-  TARGET_PDB = leetcode-practice.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 30.MinStack
-
-
-#############################################
-# Order-only phony target for 30.MinStack
-
-build cmake_object_order_depends_target_30.MinStack: phony || CMakeFiles/30.MinStack.dir
-
-build CMakeFiles/30.MinStack.dir/00.the-sword-to-offer/30.MinStack.cpp.o: CXX_COMPILER__30.2eMinStack_Debug /home/huangxin/code/cpp/leetcode-practice/00.the-sword-to-offer/30.MinStack.cpp || cmake_object_order_depends_target_30.MinStack
-  DEP_FILE = CMakeFiles/30.MinStack.dir/00.the-sword-to-offer/30.MinStack.cpp.o.d
-  FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles/30.MinStack.dir
-  OBJECT_FILE_DIR = CMakeFiles/30.MinStack.dir/00.the-sword-to-offer
-  TARGET_COMPILE_PDB = CMakeFiles/30.MinStack.dir/
-  TARGET_PDB = 30.MinStack.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 30.MinStack
-
-
-#############################################
-# Link the executable 30.MinStack
-
-build 30.MinStack: CXX_EXECUTABLE_LINKER__30.2eMinStack_Debug CMakeFiles/30.MinStack.dir/00.the-sword-to-offer/30.MinStack.cpp.o
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/30.MinStack.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/30.MinStack.dir/
-  TARGET_FILE = 30.MinStack
-  TARGET_PDB = 30.MinStack.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 03.lengthOfLongestSubstring
-
-
-#############################################
-# Order-only phony target for 03.lengthOfLongestSubstring
-
-build cmake_object_order_depends_target_03.lengthOfLongestSubstring: phony || CMakeFiles/03.lengthOfLongestSubstring.dir
-
-build CMakeFiles/03.lengthOfLongestSubstring.dir/01.hot-100/03.lengthOfLongestSubstring.cpp.o: CXX_COMPILER__03.2elengthOfLongestSubstring_Debug /home/huangxin/code/cpp/leetcode-practice/01.hot-100/03.lengthOfLongestSubstring.cpp || cmake_object_order_depends_target_03.lengthOfLongestSubstring
-  DEP_FILE = CMakeFiles/03.lengthOfLongestSubstring.dir/01.hot-100/03.lengthOfLongestSubstring.cpp.o.d
-  FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles/03.lengthOfLongestSubstring.dir
-  OBJECT_FILE_DIR = CMakeFiles/03.lengthOfLongestSubstring.dir/01.hot-100
-  TARGET_COMPILE_PDB = CMakeFiles/03.lengthOfLongestSubstring.dir/
-  TARGET_PDB = 03.lengthOfLongestSubstring.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 03.lengthOfLongestSubstring
-
-
-#############################################
-# Link the executable 03.lengthOfLongestSubstring
-
-build 03.lengthOfLongestSubstring: CXX_EXECUTABLE_LINKER__03.2elengthOfLongestSubstring_Debug CMakeFiles/03.lengthOfLongestSubstring.dir/01.hot-100/03.lengthOfLongestSubstring.cpp.o
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/03.lengthOfLongestSubstring.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/03.lengthOfLongestSubstring.dir/
-  TARGET_FILE = 03.lengthOfLongestSubstring
-  TARGET_PDB = 03.lengthOfLongestSubstring.pdb
+  TARGET_PDB = 35.copyRandomList.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CMakeCXXCompilerId
@@ -383,8 +232,6 @@ build CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXX
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
   OBJECT_FILE_DIR = CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.21.1/CompilerIdCXX
-  TARGET_COMPILE_PDB = CMakeFiles/CMakeCXXCompilerId.dir/
-  TARGET_PDB = CMakeCXXCompilerId.pdb
 
 
 # =============================================================================
@@ -399,9 +246,194 @@ build CMakeCXXCompilerId: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeF
   OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/CMakeCXXCompilerId.dir/
   TARGET_FILE = CMakeCXXCompilerId
-  TARGET_PDB = CMakeCXXCompilerId.pdb
+  TARGET_PDB = CMakeCXXCompilerId.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03.lengthOfLongestSubstring
+
+
+#############################################
+# Order-only phony target for 03.lengthOfLongestSubstring
+
+build cmake_object_order_depends_target_03.lengthOfLongestSubstring: phony || CMakeFiles/03.lengthOfLongestSubstring.dir
+
+build CMakeFiles/03.lengthOfLongestSubstring.dir/01.hot-100/03.lengthOfLongestSubstring.cpp.o: CXX_COMPILER__03.2elengthOfLongestSubstring_Debug /home/huangxin/code/cpp/leetcode-practice/01.hot-100/03.lengthOfLongestSubstring.cpp || cmake_object_order_depends_target_03.lengthOfLongestSubstring
+  DEP_FILE = CMakeFiles/03.lengthOfLongestSubstring.dir/01.hot-100/03.lengthOfLongestSubstring.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/03.lengthOfLongestSubstring.dir
+  OBJECT_FILE_DIR = CMakeFiles/03.lengthOfLongestSubstring.dir/01.hot-100
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03.lengthOfLongestSubstring
+
+
+#############################################
+# Link the executable 03.lengthOfLongestSubstring
+
+build 03.lengthOfLongestSubstring: CXX_EXECUTABLE_LINKER__03.2elengthOfLongestSubstring_Debug CMakeFiles/03.lengthOfLongestSubstring.dir/01.hot-100/03.lengthOfLongestSubstring.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/03.lengthOfLongestSubstring.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03.lengthOfLongestSubstring
+  TARGET_PDB = 03.lengthOfLongestSubstring.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 06.reversePrint
+
+
+#############################################
+# Order-only phony target for 06.reversePrint
+
+build cmake_object_order_depends_target_06.reversePrint: phony || CMakeFiles/06.reversePrint.dir
+
+build CMakeFiles/06.reversePrint.dir/00.the-sword-to-offer/06.reversePrint.cpp.o: CXX_COMPILER__06.2ereversePrint_Debug /home/huangxin/code/cpp/leetcode-practice/00.the-sword-to-offer/06.reversePrint.cpp || cmake_object_order_depends_target_06.reversePrint
+  DEP_FILE = CMakeFiles/06.reversePrint.dir/00.the-sword-to-offer/06.reversePrint.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/06.reversePrint.dir
+  OBJECT_FILE_DIR = CMakeFiles/06.reversePrint.dir/00.the-sword-to-offer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06.reversePrint
+
+
+#############################################
+# Link the executable 06.reversePrint
+
+build 06.reversePrint: CXX_EXECUTABLE_LINKER__06.2ereversePrint_Debug CMakeFiles/06.reversePrint.dir/00.the-sword-to-offer/06.reversePrint.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/06.reversePrint.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 06.reversePrint
+  TARGET_PDB = 06.reversePrint.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11.minArray
+
+
+#############################################
+# Order-only phony target for 11.minArray
+
+build cmake_object_order_depends_target_11.minArray: phony || CMakeFiles/11.minArray.dir
+
+build CMakeFiles/11.minArray.dir/00.the-sword-to-offer/11.minArray.cpp.o: CXX_COMPILER__11.2eminArray_Debug /home/huangxin/code/cpp/leetcode-practice/00.the-sword-to-offer/11.minArray.cpp || cmake_object_order_depends_target_11.minArray
+  DEP_FILE = CMakeFiles/11.minArray.dir/00.the-sword-to-offer/11.minArray.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/11.minArray.dir
+  OBJECT_FILE_DIR = CMakeFiles/11.minArray.dir/00.the-sword-to-offer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11.minArray
+
+
+#############################################
+# Link the executable 11.minArray
+
+build 11.minArray: CXX_EXECUTABLE_LINKER__11.2eminArray_Debug CMakeFiles/11.minArray.dir/00.the-sword-to-offer/11.minArray.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/11.minArray.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11.minArray
+  TARGET_PDB = 11.minArray.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 12.exist
+
+
+#############################################
+# Order-only phony target for 12.exist
+
+build cmake_object_order_depends_target_12.exist: phony || CMakeFiles/12.exist.dir
+
+build CMakeFiles/12.exist.dir/00.the-sword-to-offer/12.exist.cpp.o: CXX_COMPILER__12.2eexist_Debug /home/huangxin/code/cpp/leetcode-practice/00.the-sword-to-offer/12.exist.cpp || cmake_object_order_depends_target_12.exist
+  DEP_FILE = CMakeFiles/12.exist.dir/00.the-sword-to-offer/12.exist.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/12.exist.dir
+  OBJECT_FILE_DIR = CMakeFiles/12.exist.dir/00.the-sword-to-offer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 12.exist
+
+
+#############################################
+# Link the executable 12.exist
+
+build 12.exist: CXX_EXECUTABLE_LINKER__12.2eexist_Debug CMakeFiles/12.exist.dir/00.the-sword-to-offer/12.exist.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/12.exist.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 12.exist
+  TARGET_PDB = 12.exist.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode-practice
+
+
+#############################################
+# Order-only phony target for leetcode-practice
+
+build cmake_object_order_depends_target_leetcode-practice: phony || CMakeFiles/leetcode-practice.dir
+
+build CMakeFiles/leetcode-practice.dir/main.cpp.o: CXX_COMPILER__leetcode-practice_Debug /home/huangxin/code/cpp/leetcode-practice/main.cpp || cmake_object_order_depends_target_leetcode-practice
+  DEP_FILE = CMakeFiles/leetcode-practice.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/leetcode-practice.dir
+  OBJECT_FILE_DIR = CMakeFiles/leetcode-practice.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode-practice
+
+
+#############################################
+# Link the executable leetcode-practice
+
+build leetcode-practice: CXX_EXECUTABLE_LINKER__leetcode-practice_Debug CMakeFiles/leetcode-practice.dir/main.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/leetcode-practice.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = leetcode-practice
+  TARGET_PDB = leetcode-practice.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 30.MinStack
+
+
+#############################################
+# Order-only phony target for 30.MinStack
+
+build cmake_object_order_depends_target_30.MinStack: phony || CMakeFiles/30.MinStack.dir
+
+build CMakeFiles/30.MinStack.dir/00.the-sword-to-offer/30.MinStack.cpp.o: CXX_COMPILER__30.2eMinStack_Debug /home/huangxin/code/cpp/leetcode-practice/00.the-sword-to-offer/30.MinStack.cpp || cmake_object_order_depends_target_30.MinStack
+  DEP_FILE = CMakeFiles/30.MinStack.dir/00.the-sword-to-offer/30.MinStack.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/30.MinStack.dir
+  OBJECT_FILE_DIR = CMakeFiles/30.MinStack.dir/00.the-sword-to-offer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 30.MinStack
+
+
+#############################################
+# Link the executable 30.MinStack
+
+build 30.MinStack: CXX_EXECUTABLE_LINKER__30.2eMinStack_Debug CMakeFiles/30.MinStack.dir/00.the-sword-to-offer/30.MinStack.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/30.MinStack.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 30.MinStack
+  TARGET_PDB = 30.MinStack.dbg
 
 # =============================================================================
 # Target aliases.
@@ -414,7 +446,7 @@ build CMakeCXXCompilerId: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeF
 #############################################
 # Folder: /home/huangxin/code/cpp/leetcode-practice/cmake-build-debug
 
-build all: phony 09.CQueu 24.reverseList 06.reversePrint 00.hello-the-sword-to-offer 35.copyRandomList main leetcode-practice 30.MinStack 03.lengthOfLongestSubstring CMakeCXXCompilerId
+build all: phony main 09.CQueu 24.reverseList 00.hello-the-sword-to-offer 35.copyRandomList CMakeCXXCompilerId 03.lengthOfLongestSubstring 06.reversePrint 11.minArray 12.exist leetcode-practice 30.MinStack
 
 # =============================================================================
 # Built-in targets
@@ -423,14 +455,14 @@ build all: phony 09.CQueu 24.reverseList 06.reversePrint 00.hello-the-sword-to-o
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCCompilerABI.c /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXCompiler.cmake.in /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCXXCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystem.cmake.in /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeTestCXXCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-C.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ROCMClang-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-Determine-CXX.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-C.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-C.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-C.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCCompilerABI.c /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXCompiler.cmake.in /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCXXCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystem.cmake.in /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeTestCXXCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-C.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ROCMClang-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-Determine-CXX.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-C.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
+build ../CMakeLists.txt /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-C.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-C.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux.cmake /home/huangxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
 
 
 #############################################
