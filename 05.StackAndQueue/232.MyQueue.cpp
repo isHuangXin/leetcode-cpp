@@ -1,5 +1,12 @@
 // Problem: 232.用栈实现队列
 // Link: https://leetcode.cn/problems/implement-queue-using-stacks/
+
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+#include <stack>
+using namespace std;
+
 class MyQueue {
 private:
     stack<int> inStack, outStack;

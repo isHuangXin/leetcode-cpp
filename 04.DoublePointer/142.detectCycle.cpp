@@ -9,6 +9,17 @@
 
 // Problem: 142. 环形链表 II
 // Link: https://leetcode.cn/problems/linked-list-cycle-ii/
+
+#include <iostream>
+#include <unordered_set>
+using namespace std;
+
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
+};
+
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {

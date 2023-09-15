@@ -1,5 +1,10 @@
 // Problem: 383.赎金信
 // Link: https://leetcode.cn/problems/ransom-note/
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+using namespace std;
+
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {

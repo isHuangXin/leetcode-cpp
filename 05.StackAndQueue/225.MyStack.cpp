@@ -1,5 +1,12 @@
 // Problem: 225.两个队列实现栈
 // Link: https://leetcode.cn/problems/implement-stack-using-queues/submissions/
+
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+#include <queue>
+using namespace std;
+
 class MyStack {
 private:
     queue<int> queue1;

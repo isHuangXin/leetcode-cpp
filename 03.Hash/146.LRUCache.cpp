@@ -89,7 +89,13 @@
 
 // Problem: 146.LRU 缓存
 // Link: https://leetcode.cn/problems/lru-cache/
- struct DLinkedNode {
+
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+using namespace std;
+
+struct DLinkedNode {
     int key, value;
     DLinkedNode* prev;
     DLinkedNode* next;

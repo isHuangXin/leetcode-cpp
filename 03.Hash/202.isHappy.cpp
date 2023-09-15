@@ -1,5 +1,9 @@
 // Problem: 202.快乐数
 // Link: https://leetcode.cn/problems/happy-number/
+#include <iostream>
+#include <unordered_set>
+using namespace std;
+
 class Solution {
 public:
     int sum(int n) {
