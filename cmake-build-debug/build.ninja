@@ -38,269 +38,1306 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/huangxin/code/cpp/leetcode-cpp/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target leetcode_cpp
+# Object build statements for EXECUTABLE target 00.hello-the-sword-to-offer
 
 
 #############################################
-# Order-only phony target for leetcode_cpp
+# Order-only phony target for 00.hello-the-sword-to-offer
 
-build cmake_object_order_depends_target_leetcode_cpp: phony || CMakeFiles/leetcode_cpp.dir
+build cmake_object_order_depends_target_00.hello-the-sword-to-offer: phony || CMakeFiles/00.hello-the-sword-to-offer.dir
 
-build CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/00.hello-the-sword-to-offer.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/00.hello-the-sword-to-offer.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/00.hello-the-sword-to-offer.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer
-
-build CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/06.reversePrint.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/06.reversePrint.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/06.reversePrint.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer
-
-build CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/09.CQueu.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/09.CQueu.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/09.CQueu.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer
-
-build CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/11.minArray.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/11.minArray.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/11.minArray.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer
-
-build CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/12.exist.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/12.exist.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/12.exist.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer
-
-build CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/20.isNumber.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/20.isNumber.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/20.isNumber.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer
-
-build CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/24.reverseList.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/24.reverseList.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/24.reverseList.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer
-
-build CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/30.MinStack.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/30.MinStack.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/30.MinStack.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer
-
-build CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/32.levelOrder.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/32.levelOrder.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/32.levelOrder.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer
-
-build CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/35.copyRandomList.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/35.copyRandomList.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/35.copyRandomList.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer
-
-build CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/36.treeToDoublyList.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/36.treeToDoublyList.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/36.treeToDoublyList.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer
-
-build CMakeFiles/leetcode_cpp.dir/01.hot-100/03.lengthOfLongestSubstring.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/01.hot-100/03.lengthOfLongestSubstring.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/01.hot-100/03.lengthOfLongestSubstring.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/01.hot-100
-
-build CMakeFiles/leetcode_cpp.dir/02.BinaryTree/102.levelOrder.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/102.levelOrder.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/02.BinaryTree/102.levelOrder.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/02.BinaryTree
-
-build CMakeFiles/leetcode_cpp.dir/02.BinaryTree/103.zigzagLevelOrder.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/103.zigzagLevelOrder.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/02.BinaryTree/103.zigzagLevelOrder.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/02.BinaryTree
-
-build CMakeFiles/leetcode_cpp.dir/02.BinaryTree/107.levelOrderBottom.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/107.levelOrderBottom.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/02.BinaryTree/107.levelOrderBottom.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/02.BinaryTree
-
-build CMakeFiles/leetcode_cpp.dir/02.BinaryTree/144.preorderTraversal.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/144.preorderTraversal.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/02.BinaryTree/144.preorderTraversal.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/02.BinaryTree
-
-build CMakeFiles/leetcode_cpp.dir/02.BinaryTree/145.postorderTraversal.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/145.postorderTraversal.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/02.BinaryTree/145.postorderTraversal.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/02.BinaryTree
-
-build CMakeFiles/leetcode_cpp.dir/02.BinaryTree/173.BSTIterator.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/173.BSTIterator.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/02.BinaryTree/173.BSTIterator.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/02.BinaryTree
-
-build CMakeFiles/leetcode_cpp.dir/02.BinaryTree/94.inorderTraversal.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/94.inorderTraversal.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/02.BinaryTree/94.inorderTraversal.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/02.BinaryTree
-
-build CMakeFiles/leetcode_cpp.dir/02.BinaryTree/99.recoverTree.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/99.recoverTree.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/02.BinaryTree/99.recoverTree.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/02.BinaryTree
-
-build CMakeFiles/leetcode_cpp.dir/03.Hash/1.twoSum.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/1.twoSum.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/03.Hash/1.twoSum.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/03.Hash
-
-build CMakeFiles/leetcode_cpp.dir/03.Hash/1002.commonChars.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/1002.commonChars.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/03.Hash/1002.commonChars.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/03.Hash
-
-build CMakeFiles/leetcode_cpp.dir/03.Hash/146.LRUCache.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/146.LRUCache.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/03.Hash/146.LRUCache.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/03.Hash
-
-build CMakeFiles/leetcode_cpp.dir/03.Hash/18.fourSum.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/18.fourSum.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/03.Hash/18.fourSum.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/03.Hash
-
-build CMakeFiles/leetcode_cpp.dir/03.Hash/202.isHappy.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/202.isHappy.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/03.Hash/202.isHappy.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/03.Hash
-
-build CMakeFiles/leetcode_cpp.dir/03.Hash/242.isAnagram.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/242.isAnagram.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/03.Hash/242.isAnagram.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/03.Hash
-
-build CMakeFiles/leetcode_cpp.dir/03.Hash/349.intersection.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/349.intersection.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/03.Hash/349.intersection.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/03.Hash
-
-build CMakeFiles/leetcode_cpp.dir/03.Hash/383.canConstruct.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/383.canConstruct.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/03.Hash/383.canConstruct.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/03.Hash
-
-build CMakeFiles/leetcode_cpp.dir/03.Hash/454.fourSumCount.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/454.fourSumCount.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/03.Hash/454.fourSumCount.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/03.Hash
-
-build CMakeFiles/leetcode_cpp.dir/04.DoublePointer/142.detectCycle.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/04.DoublePointer/142.detectCycle.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/04.DoublePointer/142.detectCycle.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/04.DoublePointer
-
-build CMakeFiles/leetcode_cpp.dir/04.DoublePointer/151.reverseWords.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/04.DoublePointer/151.reverseWords.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/04.DoublePointer/151.reverseWords.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/04.DoublePointer
-
-build CMakeFiles/leetcode_cpp.dir/04.DoublePointer/19.removeNthFromEnd.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/04.DoublePointer/19.removeNthFromEnd.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/04.DoublePointer/19.removeNthFromEnd.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/04.DoublePointer
-
-build CMakeFiles/leetcode_cpp.dir/04.DoublePointer/206.reverseList.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/04.DoublePointer/206.reverseList.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/04.DoublePointer/206.reverseList.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/04.DoublePointer
-
-build CMakeFiles/leetcode_cpp.dir/04.DoublePointer/27.removeElement.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/04.DoublePointer/27.removeElement.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/04.DoublePointer/27.removeElement.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/04.DoublePointer
-
-build CMakeFiles/leetcode_cpp.dir/04.DoublePointer/344.reverseString.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/04.DoublePointer/344.reverseString.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/04.DoublePointer/344.reverseString.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/04.DoublePointer
-
-build CMakeFiles/leetcode_cpp.dir/05.StackAndQueue/225.MyStack.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/05.StackAndQueue/225.MyStack.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/05.StackAndQueue/225.MyStack.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/05.StackAndQueue
-
-build CMakeFiles/leetcode_cpp.dir/05.StackAndQueue/232.MyQueue.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/05.StackAndQueue/232.MyQueue.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/05.StackAndQueue/232.MyQueue.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/05.StackAndQueue
-
-build CMakeFiles/leetcode_cpp.dir/06.interview-algorithm/leetcode146.LRUCache.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/06.interview-algorithm/leetcode146.LRUCache.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/06.interview-algorithm/leetcode146.LRUCache.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/06.interview-algorithm
-
-build CMakeFiles/leetcode_cpp.dir/Interview_QiuZhao/threadABC.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/Interview_QiuZhao/threadABC.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/Interview_QiuZhao/threadABC.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir/Interview_QiuZhao
-
-build CMakeFiles/leetcode_cpp.dir/main.cpp.o: CXX_COMPILER__leetcode_cpp_Debug /Users/huangxin/code/cpp/leetcode-cpp/main.cpp || cmake_object_order_depends_target_leetcode_cpp
-  DEP_FILE = CMakeFiles/leetcode_cpp.dir/main.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode_cpp.dir
+build CMakeFiles/00.hello-the-sword-to-offer.dir/00.the-sword-to-offer/00.hello-the-sword-to-offer.cpp.o: CXX_COMPILER__00.2ehello-the-sword-to-offer_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/00.hello-the-sword-to-offer.cpp || cmake_object_order_depends_target_00.hello-the-sword-to-offer
+  DEP_FILE = CMakeFiles/00.hello-the-sword-to-offer.dir/00.the-sword-to-offer/00.hello-the-sword-to-offer.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/00.hello-the-sword-to-offer.dir
+  OBJECT_FILE_DIR = CMakeFiles/00.hello-the-sword-to-offer.dir/00.the-sword-to-offer
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target leetcode_cpp
+# Link build statements for EXECUTABLE target 00.hello-the-sword-to-offer
 
 
 #############################################
-# Link the executable leetcode_cpp
+# Link the executable 00.hello-the-sword-to-offer
 
-build leetcode_cpp: CXX_EXECUTABLE_LINKER__leetcode_cpp_Debug CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/00.hello-the-sword-to-offer.cpp.o CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/06.reversePrint.cpp.o CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/09.CQueu.cpp.o CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/11.minArray.cpp.o CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/12.exist.cpp.o CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/20.isNumber.cpp.o CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/24.reverseList.cpp.o CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/30.MinStack.cpp.o CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/32.levelOrder.cpp.o CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/35.copyRandomList.cpp.o CMakeFiles/leetcode_cpp.dir/00.the-sword-to-offer/36.treeToDoublyList.cpp.o CMakeFiles/leetcode_cpp.dir/01.hot-100/03.lengthOfLongestSubstring.cpp.o CMakeFiles/leetcode_cpp.dir/02.BinaryTree/102.levelOrder.cpp.o CMakeFiles/leetcode_cpp.dir/02.BinaryTree/103.zigzagLevelOrder.cpp.o CMakeFiles/leetcode_cpp.dir/02.BinaryTree/107.levelOrderBottom.cpp.o CMakeFiles/leetcode_cpp.dir/02.BinaryTree/144.preorderTraversal.cpp.o CMakeFiles/leetcode_cpp.dir/02.BinaryTree/145.postorderTraversal.cpp.o CMakeFiles/leetcode_cpp.dir/02.BinaryTree/173.BSTIterator.cpp.o CMakeFiles/leetcode_cpp.dir/02.BinaryTree/94.inorderTraversal.cpp.o CMakeFiles/leetcode_cpp.dir/02.BinaryTree/99.recoverTree.cpp.o CMakeFiles/leetcode_cpp.dir/03.Hash/1.twoSum.cpp.o CMakeFiles/leetcode_cpp.dir/03.Hash/1002.commonChars.cpp.o CMakeFiles/leetcode_cpp.dir/03.Hash/146.LRUCache.cpp.o CMakeFiles/leetcode_cpp.dir/03.Hash/18.fourSum.cpp.o CMakeFiles/leetcode_cpp.dir/03.Hash/202.isHappy.cpp.o CMakeFiles/leetcode_cpp.dir/03.Hash/242.isAnagram.cpp.o CMakeFiles/leetcode_cpp.dir/03.Hash/349.intersection.cpp.o CMakeFiles/leetcode_cpp.dir/03.Hash/383.canConstruct.cpp.o CMakeFiles/leetcode_cpp.dir/03.Hash/454.fourSumCount.cpp.o CMakeFiles/leetcode_cpp.dir/04.DoublePointer/142.detectCycle.cpp.o CMakeFiles/leetcode_cpp.dir/04.DoublePointer/151.reverseWords.cpp.o CMakeFiles/leetcode_cpp.dir/04.DoublePointer/19.removeNthFromEnd.cpp.o CMakeFiles/leetcode_cpp.dir/04.DoublePointer/206.reverseList.cpp.o CMakeFiles/leetcode_cpp.dir/04.DoublePointer/27.removeElement.cpp.o CMakeFiles/leetcode_cpp.dir/04.DoublePointer/344.reverseString.cpp.o CMakeFiles/leetcode_cpp.dir/05.StackAndQueue/225.MyStack.cpp.o CMakeFiles/leetcode_cpp.dir/05.StackAndQueue/232.MyQueue.cpp.o CMakeFiles/leetcode_cpp.dir/06.interview-algorithm/leetcode146.LRUCache.cpp.o CMakeFiles/leetcode_cpp.dir/Interview_QiuZhao/threadABC.cpp.o CMakeFiles/leetcode_cpp.dir/main.cpp.o
+build 00.hello-the-sword-to-offer: CXX_EXECUTABLE_LINKER__00.2ehello-the-sword-to-offer_Debug CMakeFiles/00.hello-the-sword-to-offer.dir/00.the-sword-to-offer/00.hello-the-sword-to-offer.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
-  OBJECT_DIR = CMakeFiles/leetcode_cpp.dir
+  OBJECT_DIR = CMakeFiles/00.hello-the-sword-to-offer.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = leetcode_cpp
-  TARGET_PDB = leetcode_cpp.dbg
+  TARGET_FILE = 00.hello-the-sword-to-offer
+  TARGET_PDB = 00.hello-the-sword-to-offer.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 06.reversePrint
+
+
+#############################################
+# Order-only phony target for 06.reversePrint
+
+build cmake_object_order_depends_target_06.reversePrint: phony || CMakeFiles/06.reversePrint.dir
+
+build CMakeFiles/06.reversePrint.dir/00.the-sword-to-offer/06.reversePrint.cpp.o: CXX_COMPILER__06.2ereversePrint_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/06.reversePrint.cpp || cmake_object_order_depends_target_06.reversePrint
+  DEP_FILE = CMakeFiles/06.reversePrint.dir/00.the-sword-to-offer/06.reversePrint.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/06.reversePrint.dir
+  OBJECT_FILE_DIR = CMakeFiles/06.reversePrint.dir/00.the-sword-to-offer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06.reversePrint
+
+
+#############################################
+# Link the executable 06.reversePrint
+
+build 06.reversePrint: CXX_EXECUTABLE_LINKER__06.2ereversePrint_Debug CMakeFiles/06.reversePrint.dir/00.the-sword-to-offer/06.reversePrint.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/06.reversePrint.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 06.reversePrint
+  TARGET_PDB = 06.reversePrint.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 09.CQueu
+
+
+#############################################
+# Order-only phony target for 09.CQueu
+
+build cmake_object_order_depends_target_09.CQueu: phony || CMakeFiles/09.CQueu.dir
+
+build CMakeFiles/09.CQueu.dir/00.the-sword-to-offer/09.CQueu.cpp.o: CXX_COMPILER__09.2eCQueu_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/09.CQueu.cpp || cmake_object_order_depends_target_09.CQueu
+  DEP_FILE = CMakeFiles/09.CQueu.dir/00.the-sword-to-offer/09.CQueu.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/09.CQueu.dir
+  OBJECT_FILE_DIR = CMakeFiles/09.CQueu.dir/00.the-sword-to-offer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 09.CQueu
+
+
+#############################################
+# Link the executable 09.CQueu
+
+build 09.CQueu: CXX_EXECUTABLE_LINKER__09.2eCQueu_Debug CMakeFiles/09.CQueu.dir/00.the-sword-to-offer/09.CQueu.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/09.CQueu.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 09.CQueu
+  TARGET_PDB = 09.CQueu.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11.minArray
+
+
+#############################################
+# Order-only phony target for 11.minArray
+
+build cmake_object_order_depends_target_11.minArray: phony || CMakeFiles/11.minArray.dir
+
+build CMakeFiles/11.minArray.dir/00.the-sword-to-offer/11.minArray.cpp.o: CXX_COMPILER__11.2eminArray_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/11.minArray.cpp || cmake_object_order_depends_target_11.minArray
+  DEP_FILE = CMakeFiles/11.minArray.dir/00.the-sword-to-offer/11.minArray.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/11.minArray.dir
+  OBJECT_FILE_DIR = CMakeFiles/11.minArray.dir/00.the-sword-to-offer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11.minArray
+
+
+#############################################
+# Link the executable 11.minArray
+
+build 11.minArray: CXX_EXECUTABLE_LINKER__11.2eminArray_Debug CMakeFiles/11.minArray.dir/00.the-sword-to-offer/11.minArray.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/11.minArray.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11.minArray
+  TARGET_PDB = 11.minArray.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 12.exist
+
+
+#############################################
+# Order-only phony target for 12.exist
+
+build cmake_object_order_depends_target_12.exist: phony || CMakeFiles/12.exist.dir
+
+build CMakeFiles/12.exist.dir/00.the-sword-to-offer/12.exist.cpp.o: CXX_COMPILER__12.2eexist_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/12.exist.cpp || cmake_object_order_depends_target_12.exist
+  DEP_FILE = CMakeFiles/12.exist.dir/00.the-sword-to-offer/12.exist.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/12.exist.dir
+  OBJECT_FILE_DIR = CMakeFiles/12.exist.dir/00.the-sword-to-offer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 12.exist
+
+
+#############################################
+# Link the executable 12.exist
+
+build 12.exist: CXX_EXECUTABLE_LINKER__12.2eexist_Debug CMakeFiles/12.exist.dir/00.the-sword-to-offer/12.exist.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/12.exist.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 12.exist
+  TARGET_PDB = 12.exist.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 20.isNumber
+
+
+#############################################
+# Order-only phony target for 20.isNumber
+
+build cmake_object_order_depends_target_20.isNumber: phony || CMakeFiles/20.isNumber.dir
+
+build CMakeFiles/20.isNumber.dir/00.the-sword-to-offer/20.isNumber.cpp.o: CXX_COMPILER__20.2eisNumber_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/20.isNumber.cpp || cmake_object_order_depends_target_20.isNumber
+  DEP_FILE = CMakeFiles/20.isNumber.dir/00.the-sword-to-offer/20.isNumber.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/20.isNumber.dir
+  OBJECT_FILE_DIR = CMakeFiles/20.isNumber.dir/00.the-sword-to-offer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 20.isNumber
+
+
+#############################################
+# Link the executable 20.isNumber
+
+build 20.isNumber: CXX_EXECUTABLE_LINKER__20.2eisNumber_Debug CMakeFiles/20.isNumber.dir/00.the-sword-to-offer/20.isNumber.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/20.isNumber.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 20.isNumber
+  TARGET_PDB = 20.isNumber.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 24.reverseList
+
+
+#############################################
+# Order-only phony target for 24.reverseList
+
+build cmake_object_order_depends_target_24.reverseList: phony || CMakeFiles/24.reverseList.dir
+
+build CMakeFiles/24.reverseList.dir/00.the-sword-to-offer/24.reverseList.cpp.o: CXX_COMPILER__24.2ereverseList_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/24.reverseList.cpp || cmake_object_order_depends_target_24.reverseList
+  DEP_FILE = CMakeFiles/24.reverseList.dir/00.the-sword-to-offer/24.reverseList.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/24.reverseList.dir
+  OBJECT_FILE_DIR = CMakeFiles/24.reverseList.dir/00.the-sword-to-offer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 24.reverseList
+
+
+#############################################
+# Link the executable 24.reverseList
+
+build 24.reverseList: CXX_EXECUTABLE_LINKER__24.2ereverseList_Debug CMakeFiles/24.reverseList.dir/00.the-sword-to-offer/24.reverseList.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/24.reverseList.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 24.reverseList
+  TARGET_PDB = 24.reverseList.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 30.MinStack
+
+
+#############################################
+# Order-only phony target for 30.MinStack
+
+build cmake_object_order_depends_target_30.MinStack: phony || CMakeFiles/30.MinStack.dir
+
+build CMakeFiles/30.MinStack.dir/00.the-sword-to-offer/30.MinStack.cpp.o: CXX_COMPILER__30.2eMinStack_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/30.MinStack.cpp || cmake_object_order_depends_target_30.MinStack
+  DEP_FILE = CMakeFiles/30.MinStack.dir/00.the-sword-to-offer/30.MinStack.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/30.MinStack.dir
+  OBJECT_FILE_DIR = CMakeFiles/30.MinStack.dir/00.the-sword-to-offer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 30.MinStack
+
+
+#############################################
+# Link the executable 30.MinStack
+
+build 30.MinStack: CXX_EXECUTABLE_LINKER__30.2eMinStack_Debug CMakeFiles/30.MinStack.dir/00.the-sword-to-offer/30.MinStack.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/30.MinStack.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 30.MinStack
+  TARGET_PDB = 30.MinStack.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 32.levelOrder
+
+
+#############################################
+# Order-only phony target for 32.levelOrder
+
+build cmake_object_order_depends_target_32.levelOrder: phony || CMakeFiles/32.levelOrder.dir
+
+build CMakeFiles/32.levelOrder.dir/00.the-sword-to-offer/32.levelOrder.cpp.o: CXX_COMPILER__32.2elevelOrder_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/32.levelOrder.cpp || cmake_object_order_depends_target_32.levelOrder
+  DEP_FILE = CMakeFiles/32.levelOrder.dir/00.the-sword-to-offer/32.levelOrder.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/32.levelOrder.dir
+  OBJECT_FILE_DIR = CMakeFiles/32.levelOrder.dir/00.the-sword-to-offer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 32.levelOrder
+
+
+#############################################
+# Link the executable 32.levelOrder
+
+build 32.levelOrder: CXX_EXECUTABLE_LINKER__32.2elevelOrder_Debug CMakeFiles/32.levelOrder.dir/00.the-sword-to-offer/32.levelOrder.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/32.levelOrder.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 32.levelOrder
+  TARGET_PDB = 32.levelOrder.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 35.copyRandomList
+
+
+#############################################
+# Order-only phony target for 35.copyRandomList
+
+build cmake_object_order_depends_target_35.copyRandomList: phony || CMakeFiles/35.copyRandomList.dir
+
+build CMakeFiles/35.copyRandomList.dir/00.the-sword-to-offer/35.copyRandomList.cpp.o: CXX_COMPILER__35.2ecopyRandomList_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/35.copyRandomList.cpp || cmake_object_order_depends_target_35.copyRandomList
+  DEP_FILE = CMakeFiles/35.copyRandomList.dir/00.the-sword-to-offer/35.copyRandomList.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/35.copyRandomList.dir
+  OBJECT_FILE_DIR = CMakeFiles/35.copyRandomList.dir/00.the-sword-to-offer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 35.copyRandomList
+
+
+#############################################
+# Link the executable 35.copyRandomList
+
+build 35.copyRandomList: CXX_EXECUTABLE_LINKER__35.2ecopyRandomList_Debug CMakeFiles/35.copyRandomList.dir/00.the-sword-to-offer/35.copyRandomList.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/35.copyRandomList.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 35.copyRandomList
+  TARGET_PDB = 35.copyRandomList.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 36.treeToDoublyList
+
+
+#############################################
+# Order-only phony target for 36.treeToDoublyList
+
+build cmake_object_order_depends_target_36.treeToDoublyList: phony || CMakeFiles/36.treeToDoublyList.dir
+
+build CMakeFiles/36.treeToDoublyList.dir/00.the-sword-to-offer/36.treeToDoublyList.cpp.o: CXX_COMPILER__36.2etreeToDoublyList_Debug /Users/huangxin/code/cpp/leetcode-cpp/00.the-sword-to-offer/36.treeToDoublyList.cpp || cmake_object_order_depends_target_36.treeToDoublyList
+  DEP_FILE = CMakeFiles/36.treeToDoublyList.dir/00.the-sword-to-offer/36.treeToDoublyList.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/36.treeToDoublyList.dir
+  OBJECT_FILE_DIR = CMakeFiles/36.treeToDoublyList.dir/00.the-sword-to-offer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 36.treeToDoublyList
+
+
+#############################################
+# Link the executable 36.treeToDoublyList
+
+build 36.treeToDoublyList: CXX_EXECUTABLE_LINKER__36.2etreeToDoublyList_Debug CMakeFiles/36.treeToDoublyList.dir/00.the-sword-to-offer/36.treeToDoublyList.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/36.treeToDoublyList.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 36.treeToDoublyList
+  TARGET_PDB = 36.treeToDoublyList.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03.lengthOfLongestSubstring
+
+
+#############################################
+# Order-only phony target for 03.lengthOfLongestSubstring
+
+build cmake_object_order_depends_target_03.lengthOfLongestSubstring: phony || CMakeFiles/03.lengthOfLongestSubstring.dir
+
+build CMakeFiles/03.lengthOfLongestSubstring.dir/01.hot-100/03.lengthOfLongestSubstring.cpp.o: CXX_COMPILER__03.2elengthOfLongestSubstring_Debug /Users/huangxin/code/cpp/leetcode-cpp/01.hot-100/03.lengthOfLongestSubstring.cpp || cmake_object_order_depends_target_03.lengthOfLongestSubstring
+  DEP_FILE = CMakeFiles/03.lengthOfLongestSubstring.dir/01.hot-100/03.lengthOfLongestSubstring.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/03.lengthOfLongestSubstring.dir
+  OBJECT_FILE_DIR = CMakeFiles/03.lengthOfLongestSubstring.dir/01.hot-100
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03.lengthOfLongestSubstring
+
+
+#############################################
+# Link the executable 03.lengthOfLongestSubstring
+
+build 03.lengthOfLongestSubstring: CXX_EXECUTABLE_LINKER__03.2elengthOfLongestSubstring_Debug CMakeFiles/03.lengthOfLongestSubstring.dir/01.hot-100/03.lengthOfLongestSubstring.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/03.lengthOfLongestSubstring.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03.lengthOfLongestSubstring
+  TARGET_PDB = 03.lengthOfLongestSubstring.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 102.levelOrder
+
+
+#############################################
+# Order-only phony target for 102.levelOrder
+
+build cmake_object_order_depends_target_102.levelOrder: phony || CMakeFiles/102.levelOrder.dir
+
+build CMakeFiles/102.levelOrder.dir/02.BinaryTree/102.levelOrder.cpp.o: CXX_COMPILER__102.2elevelOrder_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/102.levelOrder.cpp || cmake_object_order_depends_target_102.levelOrder
+  DEP_FILE = CMakeFiles/102.levelOrder.dir/02.BinaryTree/102.levelOrder.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/102.levelOrder.dir
+  OBJECT_FILE_DIR = CMakeFiles/102.levelOrder.dir/02.BinaryTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 102.levelOrder
+
+
+#############################################
+# Link the executable 102.levelOrder
+
+build 102.levelOrder: CXX_EXECUTABLE_LINKER__102.2elevelOrder_Debug CMakeFiles/102.levelOrder.dir/02.BinaryTree/102.levelOrder.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/102.levelOrder.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 102.levelOrder
+  TARGET_PDB = 102.levelOrder.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 103.zigzagLevelOrder
+
+
+#############################################
+# Order-only phony target for 103.zigzagLevelOrder
+
+build cmake_object_order_depends_target_103.zigzagLevelOrder: phony || CMakeFiles/103.zigzagLevelOrder.dir
+
+build CMakeFiles/103.zigzagLevelOrder.dir/02.BinaryTree/103.zigzagLevelOrder.cpp.o: CXX_COMPILER__103.2ezigzagLevelOrder_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/103.zigzagLevelOrder.cpp || cmake_object_order_depends_target_103.zigzagLevelOrder
+  DEP_FILE = CMakeFiles/103.zigzagLevelOrder.dir/02.BinaryTree/103.zigzagLevelOrder.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/103.zigzagLevelOrder.dir
+  OBJECT_FILE_DIR = CMakeFiles/103.zigzagLevelOrder.dir/02.BinaryTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 103.zigzagLevelOrder
+
+
+#############################################
+# Link the executable 103.zigzagLevelOrder
+
+build 103.zigzagLevelOrder: CXX_EXECUTABLE_LINKER__103.2ezigzagLevelOrder_Debug CMakeFiles/103.zigzagLevelOrder.dir/02.BinaryTree/103.zigzagLevelOrder.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/103.zigzagLevelOrder.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 103.zigzagLevelOrder
+  TARGET_PDB = 103.zigzagLevelOrder.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 107.levelOrderBottom
+
+
+#############################################
+# Order-only phony target for 107.levelOrderBottom
+
+build cmake_object_order_depends_target_107.levelOrderBottom: phony || CMakeFiles/107.levelOrderBottom.dir
+
+build CMakeFiles/107.levelOrderBottom.dir/02.BinaryTree/107.levelOrderBottom.cpp.o: CXX_COMPILER__107.2elevelOrderBottom_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/107.levelOrderBottom.cpp || cmake_object_order_depends_target_107.levelOrderBottom
+  DEP_FILE = CMakeFiles/107.levelOrderBottom.dir/02.BinaryTree/107.levelOrderBottom.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/107.levelOrderBottom.dir
+  OBJECT_FILE_DIR = CMakeFiles/107.levelOrderBottom.dir/02.BinaryTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 107.levelOrderBottom
+
+
+#############################################
+# Link the executable 107.levelOrderBottom
+
+build 107.levelOrderBottom: CXX_EXECUTABLE_LINKER__107.2elevelOrderBottom_Debug CMakeFiles/107.levelOrderBottom.dir/02.BinaryTree/107.levelOrderBottom.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/107.levelOrderBottom.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 107.levelOrderBottom
+  TARGET_PDB = 107.levelOrderBottom.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 144.preorderTraversal
+
+
+#############################################
+# Order-only phony target for 144.preorderTraversal
+
+build cmake_object_order_depends_target_144.preorderTraversal: phony || CMakeFiles/144.preorderTraversal.dir
+
+build CMakeFiles/144.preorderTraversal.dir/02.BinaryTree/144.preorderTraversal.cpp.o: CXX_COMPILER__144.2epreorderTraversal_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/144.preorderTraversal.cpp || cmake_object_order_depends_target_144.preorderTraversal
+  DEP_FILE = CMakeFiles/144.preorderTraversal.dir/02.BinaryTree/144.preorderTraversal.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/144.preorderTraversal.dir
+  OBJECT_FILE_DIR = CMakeFiles/144.preorderTraversal.dir/02.BinaryTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 144.preorderTraversal
+
+
+#############################################
+# Link the executable 144.preorderTraversal
+
+build 144.preorderTraversal: CXX_EXECUTABLE_LINKER__144.2epreorderTraversal_Debug CMakeFiles/144.preorderTraversal.dir/02.BinaryTree/144.preorderTraversal.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/144.preorderTraversal.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 144.preorderTraversal
+  TARGET_PDB = 144.preorderTraversal.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 145.postorderTraversal
+
+
+#############################################
+# Order-only phony target for 145.postorderTraversal
+
+build cmake_object_order_depends_target_145.postorderTraversal: phony || CMakeFiles/145.postorderTraversal.dir
+
+build CMakeFiles/145.postorderTraversal.dir/02.BinaryTree/145.postorderTraversal.cpp.o: CXX_COMPILER__145.2epostorderTraversal_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/145.postorderTraversal.cpp || cmake_object_order_depends_target_145.postorderTraversal
+  DEP_FILE = CMakeFiles/145.postorderTraversal.dir/02.BinaryTree/145.postorderTraversal.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/145.postorderTraversal.dir
+  OBJECT_FILE_DIR = CMakeFiles/145.postorderTraversal.dir/02.BinaryTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 145.postorderTraversal
+
+
+#############################################
+# Link the executable 145.postorderTraversal
+
+build 145.postorderTraversal: CXX_EXECUTABLE_LINKER__145.2epostorderTraversal_Debug CMakeFiles/145.postorderTraversal.dir/02.BinaryTree/145.postorderTraversal.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/145.postorderTraversal.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 145.postorderTraversal
+  TARGET_PDB = 145.postorderTraversal.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 173.BSTIterator
+
+
+#############################################
+# Order-only phony target for 173.BSTIterator
+
+build cmake_object_order_depends_target_173.BSTIterator: phony || CMakeFiles/173.BSTIterator.dir
+
+build CMakeFiles/173.BSTIterator.dir/02.BinaryTree/173.BSTIterator.cpp.o: CXX_COMPILER__173.2eBSTIterator_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/173.BSTIterator.cpp || cmake_object_order_depends_target_173.BSTIterator
+  DEP_FILE = CMakeFiles/173.BSTIterator.dir/02.BinaryTree/173.BSTIterator.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/173.BSTIterator.dir
+  OBJECT_FILE_DIR = CMakeFiles/173.BSTIterator.dir/02.BinaryTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 173.BSTIterator
+
+
+#############################################
+# Link the executable 173.BSTIterator
+
+build 173.BSTIterator: CXX_EXECUTABLE_LINKER__173.2eBSTIterator_Debug CMakeFiles/173.BSTIterator.dir/02.BinaryTree/173.BSTIterator.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/173.BSTIterator.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 173.BSTIterator
+  TARGET_PDB = 173.BSTIterator.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 94.inorderTraversal
+
+
+#############################################
+# Order-only phony target for 94.inorderTraversal
+
+build cmake_object_order_depends_target_94.inorderTraversal: phony || CMakeFiles/94.inorderTraversal.dir
+
+build CMakeFiles/94.inorderTraversal.dir/02.BinaryTree/94.inorderTraversal.cpp.o: CXX_COMPILER__94.2einorderTraversal_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/94.inorderTraversal.cpp || cmake_object_order_depends_target_94.inorderTraversal
+  DEP_FILE = CMakeFiles/94.inorderTraversal.dir/02.BinaryTree/94.inorderTraversal.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/94.inorderTraversal.dir
+  OBJECT_FILE_DIR = CMakeFiles/94.inorderTraversal.dir/02.BinaryTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 94.inorderTraversal
+
+
+#############################################
+# Link the executable 94.inorderTraversal
+
+build 94.inorderTraversal: CXX_EXECUTABLE_LINKER__94.2einorderTraversal_Debug CMakeFiles/94.inorderTraversal.dir/02.BinaryTree/94.inorderTraversal.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/94.inorderTraversal.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 94.inorderTraversal
+  TARGET_PDB = 94.inorderTraversal.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 99.recoverTree
+
+
+#############################################
+# Order-only phony target for 99.recoverTree
+
+build cmake_object_order_depends_target_99.recoverTree: phony || CMakeFiles/99.recoverTree.dir
+
+build CMakeFiles/99.recoverTree.dir/02.BinaryTree/99.recoverTree.cpp.o: CXX_COMPILER__99.2erecoverTree_Debug /Users/huangxin/code/cpp/leetcode-cpp/02.BinaryTree/99.recoverTree.cpp || cmake_object_order_depends_target_99.recoverTree
+  DEP_FILE = CMakeFiles/99.recoverTree.dir/02.BinaryTree/99.recoverTree.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/99.recoverTree.dir
+  OBJECT_FILE_DIR = CMakeFiles/99.recoverTree.dir/02.BinaryTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 99.recoverTree
+
+
+#############################################
+# Link the executable 99.recoverTree
+
+build 99.recoverTree: CXX_EXECUTABLE_LINKER__99.2erecoverTree_Debug CMakeFiles/99.recoverTree.dir/02.BinaryTree/99.recoverTree.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/99.recoverTree.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 99.recoverTree
+  TARGET_PDB = 99.recoverTree.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1.twoSum
+
+
+#############################################
+# Order-only phony target for 1.twoSum
+
+build cmake_object_order_depends_target_1.twoSum: phony || CMakeFiles/1.twoSum.dir
+
+build CMakeFiles/1.twoSum.dir/03.Hash/1.twoSum.cpp.o: CXX_COMPILER__1.2etwoSum_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/1.twoSum.cpp || cmake_object_order_depends_target_1.twoSum
+  DEP_FILE = CMakeFiles/1.twoSum.dir/03.Hash/1.twoSum.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/1.twoSum.dir
+  OBJECT_FILE_DIR = CMakeFiles/1.twoSum.dir/03.Hash
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1.twoSum
+
+
+#############################################
+# Link the executable 1.twoSum
+
+build 1.twoSum: CXX_EXECUTABLE_LINKER__1.2etwoSum_Debug CMakeFiles/1.twoSum.dir/03.Hash/1.twoSum.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/1.twoSum.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1.twoSum
+  TARGET_PDB = 1.twoSum.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1002.commonChars
+
+
+#############################################
+# Order-only phony target for 1002.commonChars
+
+build cmake_object_order_depends_target_1002.commonChars: phony || CMakeFiles/1002.commonChars.dir
+
+build CMakeFiles/1002.commonChars.dir/03.Hash/1002.commonChars.cpp.o: CXX_COMPILER__1002.2ecommonChars_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/1002.commonChars.cpp || cmake_object_order_depends_target_1002.commonChars
+  DEP_FILE = CMakeFiles/1002.commonChars.dir/03.Hash/1002.commonChars.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/1002.commonChars.dir
+  OBJECT_FILE_DIR = CMakeFiles/1002.commonChars.dir/03.Hash
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1002.commonChars
+
+
+#############################################
+# Link the executable 1002.commonChars
+
+build 1002.commonChars: CXX_EXECUTABLE_LINKER__1002.2ecommonChars_Debug CMakeFiles/1002.commonChars.dir/03.Hash/1002.commonChars.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/1002.commonChars.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1002.commonChars
+  TARGET_PDB = 1002.commonChars.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 146.LRUCache
+
+
+#############################################
+# Order-only phony target for 146.LRUCache
+
+build cmake_object_order_depends_target_146.LRUCache: phony || CMakeFiles/146.LRUCache.dir
+
+build CMakeFiles/146.LRUCache.dir/03.Hash/146.LRUCache.cpp.o: CXX_COMPILER__146.2eLRUCache_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/146.LRUCache.cpp || cmake_object_order_depends_target_146.LRUCache
+  DEP_FILE = CMakeFiles/146.LRUCache.dir/03.Hash/146.LRUCache.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/146.LRUCache.dir
+  OBJECT_FILE_DIR = CMakeFiles/146.LRUCache.dir/03.Hash
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 146.LRUCache
+
+
+#############################################
+# Link the executable 146.LRUCache
+
+build 146.LRUCache: CXX_EXECUTABLE_LINKER__146.2eLRUCache_Debug CMakeFiles/146.LRUCache.dir/03.Hash/146.LRUCache.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/146.LRUCache.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 146.LRUCache
+  TARGET_PDB = 146.LRUCache.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 18.fourSum
+
+
+#############################################
+# Order-only phony target for 18.fourSum
+
+build cmake_object_order_depends_target_18.fourSum: phony || CMakeFiles/18.fourSum.dir
+
+build CMakeFiles/18.fourSum.dir/03.Hash/18.fourSum.cpp.o: CXX_COMPILER__18.2efourSum_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/18.fourSum.cpp || cmake_object_order_depends_target_18.fourSum
+  DEP_FILE = CMakeFiles/18.fourSum.dir/03.Hash/18.fourSum.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/18.fourSum.dir
+  OBJECT_FILE_DIR = CMakeFiles/18.fourSum.dir/03.Hash
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 18.fourSum
+
+
+#############################################
+# Link the executable 18.fourSum
+
+build 18.fourSum: CXX_EXECUTABLE_LINKER__18.2efourSum_Debug CMakeFiles/18.fourSum.dir/03.Hash/18.fourSum.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/18.fourSum.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 18.fourSum
+  TARGET_PDB = 18.fourSum.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 202.isHappy
+
+
+#############################################
+# Order-only phony target for 202.isHappy
+
+build cmake_object_order_depends_target_202.isHappy: phony || CMakeFiles/202.isHappy.dir
+
+build CMakeFiles/202.isHappy.dir/03.Hash/202.isHappy.cpp.o: CXX_COMPILER__202.2eisHappy_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/202.isHappy.cpp || cmake_object_order_depends_target_202.isHappy
+  DEP_FILE = CMakeFiles/202.isHappy.dir/03.Hash/202.isHappy.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/202.isHappy.dir
+  OBJECT_FILE_DIR = CMakeFiles/202.isHappy.dir/03.Hash
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 202.isHappy
+
+
+#############################################
+# Link the executable 202.isHappy
+
+build 202.isHappy: CXX_EXECUTABLE_LINKER__202.2eisHappy_Debug CMakeFiles/202.isHappy.dir/03.Hash/202.isHappy.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/202.isHappy.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 202.isHappy
+  TARGET_PDB = 202.isHappy.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 242.isAnagram
+
+
+#############################################
+# Order-only phony target for 242.isAnagram
+
+build cmake_object_order_depends_target_242.isAnagram: phony || CMakeFiles/242.isAnagram.dir
+
+build CMakeFiles/242.isAnagram.dir/03.Hash/242.isAnagram.cpp.o: CXX_COMPILER__242.2eisAnagram_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/242.isAnagram.cpp || cmake_object_order_depends_target_242.isAnagram
+  DEP_FILE = CMakeFiles/242.isAnagram.dir/03.Hash/242.isAnagram.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/242.isAnagram.dir
+  OBJECT_FILE_DIR = CMakeFiles/242.isAnagram.dir/03.Hash
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 242.isAnagram
+
+
+#############################################
+# Link the executable 242.isAnagram
+
+build 242.isAnagram: CXX_EXECUTABLE_LINKER__242.2eisAnagram_Debug CMakeFiles/242.isAnagram.dir/03.Hash/242.isAnagram.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/242.isAnagram.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 242.isAnagram
+  TARGET_PDB = 242.isAnagram.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 349.intersection
+
+
+#############################################
+# Order-only phony target for 349.intersection
+
+build cmake_object_order_depends_target_349.intersection: phony || CMakeFiles/349.intersection.dir
+
+build CMakeFiles/349.intersection.dir/03.Hash/349.intersection.cpp.o: CXX_COMPILER__349.2eintersection_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/349.intersection.cpp || cmake_object_order_depends_target_349.intersection
+  DEP_FILE = CMakeFiles/349.intersection.dir/03.Hash/349.intersection.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/349.intersection.dir
+  OBJECT_FILE_DIR = CMakeFiles/349.intersection.dir/03.Hash
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 349.intersection
+
+
+#############################################
+# Link the executable 349.intersection
+
+build 349.intersection: CXX_EXECUTABLE_LINKER__349.2eintersection_Debug CMakeFiles/349.intersection.dir/03.Hash/349.intersection.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/349.intersection.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 349.intersection
+  TARGET_PDB = 349.intersection.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 383.canConstruct
+
+
+#############################################
+# Order-only phony target for 383.canConstruct
+
+build cmake_object_order_depends_target_383.canConstruct: phony || CMakeFiles/383.canConstruct.dir
+
+build CMakeFiles/383.canConstruct.dir/03.Hash/383.canConstruct.cpp.o: CXX_COMPILER__383.2ecanConstruct_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/383.canConstruct.cpp || cmake_object_order_depends_target_383.canConstruct
+  DEP_FILE = CMakeFiles/383.canConstruct.dir/03.Hash/383.canConstruct.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/383.canConstruct.dir
+  OBJECT_FILE_DIR = CMakeFiles/383.canConstruct.dir/03.Hash
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 383.canConstruct
+
+
+#############################################
+# Link the executable 383.canConstruct
+
+build 383.canConstruct: CXX_EXECUTABLE_LINKER__383.2ecanConstruct_Debug CMakeFiles/383.canConstruct.dir/03.Hash/383.canConstruct.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/383.canConstruct.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 383.canConstruct
+  TARGET_PDB = 383.canConstruct.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 454.fourSumCount
+
+
+#############################################
+# Order-only phony target for 454.fourSumCount
+
+build cmake_object_order_depends_target_454.fourSumCount: phony || CMakeFiles/454.fourSumCount.dir
+
+build CMakeFiles/454.fourSumCount.dir/03.Hash/454.fourSumCount.cpp.o: CXX_COMPILER__454.2efourSumCount_Debug /Users/huangxin/code/cpp/leetcode-cpp/03.Hash/454.fourSumCount.cpp || cmake_object_order_depends_target_454.fourSumCount
+  DEP_FILE = CMakeFiles/454.fourSumCount.dir/03.Hash/454.fourSumCount.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/454.fourSumCount.dir
+  OBJECT_FILE_DIR = CMakeFiles/454.fourSumCount.dir/03.Hash
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 454.fourSumCount
+
+
+#############################################
+# Link the executable 454.fourSumCount
+
+build 454.fourSumCount: CXX_EXECUTABLE_LINKER__454.2efourSumCount_Debug CMakeFiles/454.fourSumCount.dir/03.Hash/454.fourSumCount.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/454.fourSumCount.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 454.fourSumCount
+  TARGET_PDB = 454.fourSumCount.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 142.detectCycle
+
+
+#############################################
+# Order-only phony target for 142.detectCycle
+
+build cmake_object_order_depends_target_142.detectCycle: phony || CMakeFiles/142.detectCycle.dir
+
+build CMakeFiles/142.detectCycle.dir/04.DoublePointer/142.detectCycle.cpp.o: CXX_COMPILER__142.2edetectCycle_Debug /Users/huangxin/code/cpp/leetcode-cpp/04.DoublePointer/142.detectCycle.cpp || cmake_object_order_depends_target_142.detectCycle
+  DEP_FILE = CMakeFiles/142.detectCycle.dir/04.DoublePointer/142.detectCycle.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/142.detectCycle.dir
+  OBJECT_FILE_DIR = CMakeFiles/142.detectCycle.dir/04.DoublePointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 142.detectCycle
+
+
+#############################################
+# Link the executable 142.detectCycle
+
+build 142.detectCycle: CXX_EXECUTABLE_LINKER__142.2edetectCycle_Debug CMakeFiles/142.detectCycle.dir/04.DoublePointer/142.detectCycle.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/142.detectCycle.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 142.detectCycle
+  TARGET_PDB = 142.detectCycle.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 151.reverseWords
+
+
+#############################################
+# Order-only phony target for 151.reverseWords
+
+build cmake_object_order_depends_target_151.reverseWords: phony || CMakeFiles/151.reverseWords.dir
+
+build CMakeFiles/151.reverseWords.dir/04.DoublePointer/151.reverseWords.cpp.o: CXX_COMPILER__151.2ereverseWords_Debug /Users/huangxin/code/cpp/leetcode-cpp/04.DoublePointer/151.reverseWords.cpp || cmake_object_order_depends_target_151.reverseWords
+  DEP_FILE = CMakeFiles/151.reverseWords.dir/04.DoublePointer/151.reverseWords.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/151.reverseWords.dir
+  OBJECT_FILE_DIR = CMakeFiles/151.reverseWords.dir/04.DoublePointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 151.reverseWords
+
+
+#############################################
+# Link the executable 151.reverseWords
+
+build 151.reverseWords: CXX_EXECUTABLE_LINKER__151.2ereverseWords_Debug CMakeFiles/151.reverseWords.dir/04.DoublePointer/151.reverseWords.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/151.reverseWords.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 151.reverseWords
+  TARGET_PDB = 151.reverseWords.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 19.removeNthFromEnd
+
+
+#############################################
+# Order-only phony target for 19.removeNthFromEnd
+
+build cmake_object_order_depends_target_19.removeNthFromEnd: phony || CMakeFiles/19.removeNthFromEnd.dir
+
+build CMakeFiles/19.removeNthFromEnd.dir/04.DoublePointer/19.removeNthFromEnd.cpp.o: CXX_COMPILER__19.2eremoveNthFromEnd_Debug /Users/huangxin/code/cpp/leetcode-cpp/04.DoublePointer/19.removeNthFromEnd.cpp || cmake_object_order_depends_target_19.removeNthFromEnd
+  DEP_FILE = CMakeFiles/19.removeNthFromEnd.dir/04.DoublePointer/19.removeNthFromEnd.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/19.removeNthFromEnd.dir
+  OBJECT_FILE_DIR = CMakeFiles/19.removeNthFromEnd.dir/04.DoublePointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 19.removeNthFromEnd
+
+
+#############################################
+# Link the executable 19.removeNthFromEnd
+
+build 19.removeNthFromEnd: CXX_EXECUTABLE_LINKER__19.2eremoveNthFromEnd_Debug CMakeFiles/19.removeNthFromEnd.dir/04.DoublePointer/19.removeNthFromEnd.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/19.removeNthFromEnd.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 19.removeNthFromEnd
+  TARGET_PDB = 19.removeNthFromEnd.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 206.reverseList
+
+
+#############################################
+# Order-only phony target for 206.reverseList
+
+build cmake_object_order_depends_target_206.reverseList: phony || CMakeFiles/206.reverseList.dir
+
+build CMakeFiles/206.reverseList.dir/04.DoublePointer/206.reverseList.cpp.o: CXX_COMPILER__206.2ereverseList_Debug /Users/huangxin/code/cpp/leetcode-cpp/04.DoublePointer/206.reverseList.cpp || cmake_object_order_depends_target_206.reverseList
+  DEP_FILE = CMakeFiles/206.reverseList.dir/04.DoublePointer/206.reverseList.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/206.reverseList.dir
+  OBJECT_FILE_DIR = CMakeFiles/206.reverseList.dir/04.DoublePointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 206.reverseList
+
+
+#############################################
+# Link the executable 206.reverseList
+
+build 206.reverseList: CXX_EXECUTABLE_LINKER__206.2ereverseList_Debug CMakeFiles/206.reverseList.dir/04.DoublePointer/206.reverseList.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/206.reverseList.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 206.reverseList
+  TARGET_PDB = 206.reverseList.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 27.removeElement
+
+
+#############################################
+# Order-only phony target for 27.removeElement
+
+build cmake_object_order_depends_target_27.removeElement: phony || CMakeFiles/27.removeElement.dir
+
+build CMakeFiles/27.removeElement.dir/04.DoublePointer/27.removeElement.cpp.o: CXX_COMPILER__27.2eremoveElement_Debug /Users/huangxin/code/cpp/leetcode-cpp/04.DoublePointer/27.removeElement.cpp || cmake_object_order_depends_target_27.removeElement
+  DEP_FILE = CMakeFiles/27.removeElement.dir/04.DoublePointer/27.removeElement.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/27.removeElement.dir
+  OBJECT_FILE_DIR = CMakeFiles/27.removeElement.dir/04.DoublePointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 27.removeElement
+
+
+#############################################
+# Link the executable 27.removeElement
+
+build 27.removeElement: CXX_EXECUTABLE_LINKER__27.2eremoveElement_Debug CMakeFiles/27.removeElement.dir/04.DoublePointer/27.removeElement.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/27.removeElement.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 27.removeElement
+  TARGET_PDB = 27.removeElement.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 344.reverseString
+
+
+#############################################
+# Order-only phony target for 344.reverseString
+
+build cmake_object_order_depends_target_344.reverseString: phony || CMakeFiles/344.reverseString.dir
+
+build CMakeFiles/344.reverseString.dir/04.DoublePointer/344.reverseString.cpp.o: CXX_COMPILER__344.2ereverseString_Debug /Users/huangxin/code/cpp/leetcode-cpp/04.DoublePointer/344.reverseString.cpp || cmake_object_order_depends_target_344.reverseString
+  DEP_FILE = CMakeFiles/344.reverseString.dir/04.DoublePointer/344.reverseString.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/344.reverseString.dir
+  OBJECT_FILE_DIR = CMakeFiles/344.reverseString.dir/04.DoublePointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 344.reverseString
+
+
+#############################################
+# Link the executable 344.reverseString
+
+build 344.reverseString: CXX_EXECUTABLE_LINKER__344.2ereverseString_Debug CMakeFiles/344.reverseString.dir/04.DoublePointer/344.reverseString.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/344.reverseString.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 344.reverseString
+  TARGET_PDB = 344.reverseString.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 225.MyStack
+
+
+#############################################
+# Order-only phony target for 225.MyStack
+
+build cmake_object_order_depends_target_225.MyStack: phony || CMakeFiles/225.MyStack.dir
+
+build CMakeFiles/225.MyStack.dir/05.StackAndQueue/225.MyStack.cpp.o: CXX_COMPILER__225.2eMyStack_Debug /Users/huangxin/code/cpp/leetcode-cpp/05.StackAndQueue/225.MyStack.cpp || cmake_object_order_depends_target_225.MyStack
+  DEP_FILE = CMakeFiles/225.MyStack.dir/05.StackAndQueue/225.MyStack.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/225.MyStack.dir
+  OBJECT_FILE_DIR = CMakeFiles/225.MyStack.dir/05.StackAndQueue
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 225.MyStack
+
+
+#############################################
+# Link the executable 225.MyStack
+
+build 225.MyStack: CXX_EXECUTABLE_LINKER__225.2eMyStack_Debug CMakeFiles/225.MyStack.dir/05.StackAndQueue/225.MyStack.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/225.MyStack.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 225.MyStack
+  TARGET_PDB = 225.MyStack.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 232.MyQueue
+
+
+#############################################
+# Order-only phony target for 232.MyQueue
+
+build cmake_object_order_depends_target_232.MyQueue: phony || CMakeFiles/232.MyQueue.dir
+
+build CMakeFiles/232.MyQueue.dir/05.StackAndQueue/232.MyQueue.cpp.o: CXX_COMPILER__232.2eMyQueue_Debug /Users/huangxin/code/cpp/leetcode-cpp/05.StackAndQueue/232.MyQueue.cpp || cmake_object_order_depends_target_232.MyQueue
+  DEP_FILE = CMakeFiles/232.MyQueue.dir/05.StackAndQueue/232.MyQueue.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/232.MyQueue.dir
+  OBJECT_FILE_DIR = CMakeFiles/232.MyQueue.dir/05.StackAndQueue
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 232.MyQueue
+
+
+#############################################
+# Link the executable 232.MyQueue
+
+build 232.MyQueue: CXX_EXECUTABLE_LINKER__232.2eMyQueue_Debug CMakeFiles/232.MyQueue.dir/05.StackAndQueue/232.MyQueue.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/232.MyQueue.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 232.MyQueue
+  TARGET_PDB = 232.MyQueue.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode146.LRUCache
+
+
+#############################################
+# Order-only phony target for leetcode146.LRUCache
+
+build cmake_object_order_depends_target_leetcode146.LRUCache: phony || CMakeFiles/leetcode146.LRUCache.dir
+
+build CMakeFiles/leetcode146.LRUCache.dir/06.interview-algorithm/leetcode146.LRUCache.cpp.o: CXX_COMPILER__leetcode146.2eLRUCache_Debug /Users/huangxin/code/cpp/leetcode-cpp/06.interview-algorithm/leetcode146.LRUCache.cpp || cmake_object_order_depends_target_leetcode146.LRUCache
+  DEP_FILE = CMakeFiles/leetcode146.LRUCache.dir/06.interview-algorithm/leetcode146.LRUCache.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/leetcode146.LRUCache.dir
+  OBJECT_FILE_DIR = CMakeFiles/leetcode146.LRUCache.dir/06.interview-algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode146.LRUCache
+
+
+#############################################
+# Link the executable leetcode146.LRUCache
+
+build leetcode146.LRUCache: CXX_EXECUTABLE_LINKER__leetcode146.2eLRUCache_Debug CMakeFiles/leetcode146.LRUCache.dir/06.interview-algorithm/leetcode146.LRUCache.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/leetcode146.LRUCache.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = leetcode146.LRUCache
+  TARGET_PDB = leetcode146.LRUCache.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LRUCache
+
+
+#############################################
+# Order-only phony target for LRUCache
+
+build cmake_object_order_depends_target_LRUCache: phony || CMakeFiles/LRUCache.dir
+
+build CMakeFiles/LRUCache.dir/07.Interview_QiuZhao/LRUCache.cpp.o: CXX_COMPILER__LRUCache_Debug /Users/huangxin/code/cpp/leetcode-cpp/07.Interview_QiuZhao/LRUCache.cpp || cmake_object_order_depends_target_LRUCache
+  DEP_FILE = CMakeFiles/LRUCache.dir/07.Interview_QiuZhao/LRUCache.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/LRUCache.dir
+  OBJECT_FILE_DIR = CMakeFiles/LRUCache.dir/07.Interview_QiuZhao
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LRUCache
+
+
+#############################################
+# Link the executable LRUCache
+
+build LRUCache: CXX_EXECUTABLE_LINKER__LRUCache_Debug CMakeFiles/LRUCache.dir/07.Interview_QiuZhao/LRUCache.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/LRUCache.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = LRUCache
+  TARGET_PDB = LRUCache.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target findMatrixMax
+
+
+#############################################
+# Order-only phony target for findMatrixMax
+
+build cmake_object_order_depends_target_findMatrixMax: phony || CMakeFiles/findMatrixMax.dir
+
+build CMakeFiles/findMatrixMax.dir/07.Interview_QiuZhao/findMatrixMax.cpp.o: CXX_COMPILER__findMatrixMax_Debug /Users/huangxin/code/cpp/leetcode-cpp/07.Interview_QiuZhao/findMatrixMax.cpp || cmake_object_order_depends_target_findMatrixMax
+  DEP_FILE = CMakeFiles/findMatrixMax.dir/07.Interview_QiuZhao/findMatrixMax.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/findMatrixMax.dir
+  OBJECT_FILE_DIR = CMakeFiles/findMatrixMax.dir/07.Interview_QiuZhao
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target findMatrixMax
+
+
+#############################################
+# Link the executable findMatrixMax
+
+build findMatrixMax: CXX_EXECUTABLE_LINKER__findMatrixMax_Debug CMakeFiles/findMatrixMax.dir/07.Interview_QiuZhao/findMatrixMax.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/findMatrixMax.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = findMatrixMax
+  TARGET_PDB = findMatrixMax.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target isCycle
+
+
+#############################################
+# Order-only phony target for isCycle
+
+build cmake_object_order_depends_target_isCycle: phony || CMakeFiles/isCycle.dir
+
+build CMakeFiles/isCycle.dir/07.Interview_QiuZhao/isCycle.cpp.o: CXX_COMPILER__isCycle_Debug /Users/huangxin/code/cpp/leetcode-cpp/07.Interview_QiuZhao/isCycle.cpp || cmake_object_order_depends_target_isCycle
+  DEP_FILE = CMakeFiles/isCycle.dir/07.Interview_QiuZhao/isCycle.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/isCycle.dir
+  OBJECT_FILE_DIR = CMakeFiles/isCycle.dir/07.Interview_QiuZhao
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target isCycle
+
+
+#############################################
+# Link the executable isCycle
+
+build isCycle: CXX_EXECUTABLE_LINKER__isCycle_Debug CMakeFiles/isCycle.dir/07.Interview_QiuZhao/isCycle.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/isCycle.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = isCycle
+  TARGET_PDB = isCycle.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target maxArea
+
+
+#############################################
+# Order-only phony target for maxArea
+
+build cmake_object_order_depends_target_maxArea: phony || CMakeFiles/maxArea.dir
+
+build CMakeFiles/maxArea.dir/07.Interview_QiuZhao/maxArea.cpp.o: CXX_COMPILER__maxArea_Debug /Users/huangxin/code/cpp/leetcode-cpp/07.Interview_QiuZhao/maxArea.cpp || cmake_object_order_depends_target_maxArea
+  DEP_FILE = CMakeFiles/maxArea.dir/07.Interview_QiuZhao/maxArea.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/maxArea.dir
+  OBJECT_FILE_DIR = CMakeFiles/maxArea.dir/07.Interview_QiuZhao
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target maxArea
+
+
+#############################################
+# Link the executable maxArea
+
+build maxArea: CXX_EXECUTABLE_LINKER__maxArea_Debug CMakeFiles/maxArea.dir/07.Interview_QiuZhao/maxArea.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/maxArea.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = maxArea
+  TARGET_PDB = maxArea.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target threadABC
@@ -311,11 +1348,11 @@ build leetcode_cpp: CXX_EXECUTABLE_LINKER__leetcode_cpp_Debug CMakeFiles/leetcod
 
 build cmake_object_order_depends_target_threadABC: phony || CMakeFiles/threadABC.dir
 
-build CMakeFiles/threadABC.dir/Interview_QiuZhao/threadABC.cpp.o: CXX_COMPILER__threadABC_Debug /Users/huangxin/code/cpp/leetcode-cpp/Interview_QiuZhao/threadABC.cpp || cmake_object_order_depends_target_threadABC
-  DEP_FILE = CMakeFiles/threadABC.dir/Interview_QiuZhao/threadABC.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+build CMakeFiles/threadABC.dir/07.Interview_QiuZhao/threadABC.cpp.o: CXX_COMPILER__threadABC_Debug /Users/huangxin/code/cpp/leetcode-cpp/07.Interview_QiuZhao/threadABC.cpp || cmake_object_order_depends_target_threadABC
+  DEP_FILE = CMakeFiles/threadABC.dir/07.Interview_QiuZhao/threadABC.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
   OBJECT_DIR = CMakeFiles/threadABC.dir
-  OBJECT_FILE_DIR = CMakeFiles/threadABC.dir/Interview_QiuZhao
+  OBJECT_FILE_DIR = CMakeFiles/threadABC.dir/07.Interview_QiuZhao
 
 
 # =============================================================================
@@ -325,13 +1362,199 @@ build CMakeFiles/threadABC.dir/Interview_QiuZhao/threadABC.cpp.o: CXX_COMPILER__
 #############################################
 # Link the executable threadABC
 
-build threadABC: CXX_EXECUTABLE_LINKER__threadABC_Debug CMakeFiles/threadABC.dir/Interview_QiuZhao/threadABC.cpp.o
+build threadABC: CXX_EXECUTABLE_LINKER__threadABC_Debug CMakeFiles/threadABC.dir/07.Interview_QiuZhao/threadABC.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
   OBJECT_DIR = CMakeFiles/threadABC.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = threadABC
   TARGET_PDB = threadABC.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target threadPrint
+
+
+#############################################
+# Order-only phony target for threadPrint
+
+build cmake_object_order_depends_target_threadPrint: phony || CMakeFiles/threadPrint.dir
+
+build CMakeFiles/threadPrint.dir/07.Interview_QiuZhao/threadPrint.cpp.o: CXX_COMPILER__threadPrint_Debug /Users/huangxin/code/cpp/leetcode-cpp/07.Interview_QiuZhao/threadPrint.cpp || cmake_object_order_depends_target_threadPrint
+  DEP_FILE = CMakeFiles/threadPrint.dir/07.Interview_QiuZhao/threadPrint.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/threadPrint.dir
+  OBJECT_FILE_DIR = CMakeFiles/threadPrint.dir/07.Interview_QiuZhao
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target threadPrint
+
+
+#############################################
+# Link the executable threadPrint
+
+build threadPrint: CXX_EXECUTABLE_LINKER__threadPrint_Debug CMakeFiles/threadPrint.dir/07.Interview_QiuZhao/threadPrint.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/threadPrint.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = threadPrint
+  TARGET_PDB = threadPrint.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 17.lettercombinations
+
+
+#############################################
+# Order-only phony target for 17.lettercombinations
+
+build cmake_object_order_depends_target_17.lettercombinations: phony || CMakeFiles/17.lettercombinations.dir
+
+build CMakeFiles/17.lettercombinations.dir/08.Hot100/17.lettercombinations.cpp.o: CXX_COMPILER__17.2elettercombinations_Debug /Users/huangxin/code/cpp/leetcode-cpp/08.Hot100/17.lettercombinations.cpp || cmake_object_order_depends_target_17.lettercombinations
+  DEP_FILE = CMakeFiles/17.lettercombinations.dir/08.Hot100/17.lettercombinations.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/17.lettercombinations.dir
+  OBJECT_FILE_DIR = CMakeFiles/17.lettercombinations.dir/08.Hot100
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 17.lettercombinations
+
+
+#############################################
+# Link the executable 17.lettercombinations
+
+build 17.lettercombinations: CXX_EXECUTABLE_LINKER__17.2elettercombinations_Debug CMakeFiles/17.lettercombinations.dir/08.Hot100/17.lettercombinations.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/17.lettercombinations.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 17.lettercombinations
+  TARGET_PDB = 17.lettercombinations.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 200.numIslands
+
+
+#############################################
+# Order-only phony target for 200.numIslands
+
+build cmake_object_order_depends_target_200.numIslands: phony || CMakeFiles/200.numIslands.dir
+
+build CMakeFiles/200.numIslands.dir/08.Hot100/200.numIslands.cpp.o: CXX_COMPILER__200.2enumIslands_Debug /Users/huangxin/code/cpp/leetcode-cpp/08.Hot100/200.numIslands.cpp || cmake_object_order_depends_target_200.numIslands
+  DEP_FILE = CMakeFiles/200.numIslands.dir/08.Hot100/200.numIslands.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/200.numIslands.dir
+  OBJECT_FILE_DIR = CMakeFiles/200.numIslands.dir/08.Hot100
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 200.numIslands
+
+
+#############################################
+# Link the executable 200.numIslands
+
+build 200.numIslands: CXX_EXECUTABLE_LINKER__200.2enumIslands_Debug CMakeFiles/200.numIslands.dir/08.Hot100/200.numIslands.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/200.numIslands.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 200.numIslands
+  TARGET_PDB = 200.numIslands.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 617.mergeTrees
+
+
+#############################################
+# Order-only phony target for 617.mergeTrees
+
+build cmake_object_order_depends_target_617.mergeTrees: phony || CMakeFiles/617.mergeTrees.dir
+
+build CMakeFiles/617.mergeTrees.dir/08.Hot100/617.mergeTrees.cpp.o: CXX_COMPILER__617.2emergeTrees_Debug /Users/huangxin/code/cpp/leetcode-cpp/08.Hot100/617.mergeTrees.cpp || cmake_object_order_depends_target_617.mergeTrees
+  DEP_FILE = CMakeFiles/617.mergeTrees.dir/08.Hot100/617.mergeTrees.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/617.mergeTrees.dir
+  OBJECT_FILE_DIR = CMakeFiles/617.mergeTrees.dir/08.Hot100
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 617.mergeTrees
+
+
+#############################################
+# Link the executable 617.mergeTrees
+
+build 617.mergeTrees: CXX_EXECUTABLE_LINKER__617.2emergeTrees_Debug CMakeFiles/617.mergeTrees.dir/08.Hot100/617.mergeTrees.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/617.mergeTrees.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 617.mergeTrees
+  TARGET_PDB = 617.mergeTrees.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 79.exist
+
+
+#############################################
+# Order-only phony target for 79.exist
+
+build cmake_object_order_depends_target_79.exist: phony || CMakeFiles/79.exist.dir
+
+build CMakeFiles/79.exist.dir/08.Hot100/79.exist.cpp.o: CXX_COMPILER__79.2eexist_Debug /Users/huangxin/code/cpp/leetcode-cpp/08.Hot100/79.exist.cpp || cmake_object_order_depends_target_79.exist
+  DEP_FILE = CMakeFiles/79.exist.dir/08.Hot100/79.exist.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/79.exist.dir
+  OBJECT_FILE_DIR = CMakeFiles/79.exist.dir/08.Hot100
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 79.exist
+
+
+#############################################
+# Link the executable 79.exist
+
+build 79.exist: CXX_EXECUTABLE_LINKER__79.2eexist_Debug CMakeFiles/79.exist.dir/08.Hot100/79.exist.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/79.exist.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 79.exist
+  TARGET_PDB = 79.exist.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target main
+
+
+#############################################
+# Order-only phony target for main
+
+build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
+
+build CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_Debug /Users/huangxin/code/cpp/leetcode-cpp/main.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main
+
+
+#############################################
+# Link the executable main
+
+build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/main.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = main
+  TARGET_PDB = main.dbg
 
 
 #############################################
@@ -367,7 +1590,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/huangxin/code/cpp/leetcode-cpp/cmake-build-debug
 
-build all: phony leetcode_cpp threadABC
+build all: phony 00.hello-the-sword-to-offer 06.reversePrint 09.CQueu 11.minArray 12.exist 20.isNumber 24.reverseList 30.MinStack 32.levelOrder 35.copyRandomList 36.treeToDoublyList 03.lengthOfLongestSubstring 102.levelOrder 103.zigzagLevelOrder 107.levelOrderBottom 144.preorderTraversal 145.postorderTraversal 173.BSTIterator 94.inorderTraversal 99.recoverTree 1.twoSum 1002.commonChars 146.LRUCache 18.fourSum 202.isHappy 242.isAnagram 349.intersection 383.canConstruct 454.fourSumCount 142.detectCycle 151.reverseWords 19.removeNthFromEnd 206.reverseList 27.removeElement 344.reverseString 225.MyStack 232.MyQueue leetcode146.LRUCache LRUCache findMatrixMax isCycle maxArea threadABC threadPrint 17.lettercombinations 200.numIslands 617.mergeTrees 79.exist main
 
 # =============================================================================
 # Built-in targets
