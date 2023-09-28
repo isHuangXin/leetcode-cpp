@@ -44,6 +44,26 @@ vector<int> buildPostorder(vector<int>& preorder, vector<int>& inorder) {
 int main() {
     vector<int> preorder = {1, 2, 4, 5, 3, 6, 7};
     vector<int> inorder = {4, 2, 5, 1, 6, 3, 7};
+/**
+ * step 1:
+ *                1
+ *     {4 2 5}        {6, 3, 7}
+ *
+ * step 2:
+ *                   1
+ *         2              {6, 3, 7}
+ *     {4}   {5}          {6, 3, 7}
+ *
+ * step 3:
+ *                  1
+ *          2           3
+ *      4      5    {6}    {7}
+ *
+ * step 4:
+ *                   1
+ *          2                3
+ *     4        5        6       7
+ * */
 
     vector<int> postorder = buildPostorder(preorder, inorder);
 
