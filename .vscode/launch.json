@@ -8,7 +8,8 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug",
-            "program": "${workspaceFolder}/main",
+            // "program": "${workspaceFolder}/main",
+            "program": "${workspaceFolder}/08.Hot100/graph/numIslands",
             "args": [],
             "cwd": "${workspaceFolder}"
         }
